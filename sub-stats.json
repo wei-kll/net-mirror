@@ -1,0 +1,43 @@
+{
+  "generated_at_utc": "2026-08-28T14:13:14Z",
+  "upstream": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/singbox.json",
+  "upstream_nodes": 1712,
+  "tls_verified": 963,
+  "unique_exits": 310,
+  "published": 200,
+  "country_shards_used": 31,
+  "dropped": {
+    "insecure_cert": 408,
+    "weak_cipher": 34,
+    "plaintext": 306,
+    "type_not_allowed": 1,
+    "dup_exit": 653
+  },
+  "protocols": {
+    "vless": 170,
+    "trojan": 3,
+    "hysteria2": 8,
+    "shadowsocks": 17,
+    "tuic": 1,
+    "vmess": 1
+  },
+  "countries": {
+    "JP": 34,
+    "KR": 9,
+    "HK": 11,
+    "TW": 4,
+    "SG": 18,
+    "US": 73,
+    "AU": 2,
+    "CA": 9,
+    "IN": 1,
+    "DE": 9,
+    "NL": 6,
+    "GB": 18,
+    "??": 1,
+    "IT": 1,
+    "FR": 3,
+    "PL": 1
+  },
+  "note": "selector default is a FIXED node; AUTO(urltest) changes exit ip - do not use it for google logins"
+}

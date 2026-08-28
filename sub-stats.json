@@ -1,43 +1,101 @@
 {
-  "generated_at_utc": "2026-08-28T14:21:22Z",
+  "generated_at_utc": "2026-08-28T14:46:45Z",
   "upstream": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/singbox.json",
   "upstream_nodes": 1712,
-  "tls_verified": 963,
-  "unique_exits": 310,
-  "published": 200,
+  "tls_verified": 909,
+  "unique_exits": 325,
   "country_shards_used": 31,
   "dropped": {
-    "insecure_cert": 408,
-    "weak_cipher": 34,
-    "plaintext": 306,
+    "insecure_cert": 419,
+    "weak_cipher": 36,
+    "plaintext": 347,
     "type_not_allowed": 1,
-    "dup_exit": 653
+    "dup_exit": 584
   },
-  "protocols": {
-    "vless": 170,
-    "trojan": 3,
-    "hysteria2": 8,
-    "shadowsocks": 17,
-    "tuic": 1,
-    "vmess": 1
+  "tiers": {
+    "sub": {
+      "nodes": 200,
+      "default": "JP vless-01",
+      "protocols": {
+        "vless": 167,
+        "trojan": 3,
+        "hysteria2": 9,
+        "shadowsocks": 19,
+        "tuic": 1,
+        "vmess": 1
+      },
+      "countries": {
+        "JP": 33,
+        "TW": 5,
+        "KR": 9,
+        "HK": 15,
+        "SG": 36,
+        "US": 77,
+        "AU": 2,
+        "CA": 9,
+        "IN": 1,
+        "DE": 1,
+        "NL": 3,
+        "GB": 9
+      }
+    },
+    "sub-asia": {
+      "nodes": 101,
+      "default": "JP vless-01",
+      "protocols": {
+        "vless": 84,
+        "trojan": 3,
+        "hysteria2": 4,
+        "shadowsocks": 9,
+        "tuic": 1
+      },
+      "countries": {
+        "JP": 33,
+        "TW": 5,
+        "KR": 9,
+        "HK": 15,
+        "SG": 36,
+        "AU": 2,
+        "IN": 1
+      }
+    },
+    "sub-us": {
+      "nodes": 86,
+      "default": "US vless-01",
+      "protocols": {
+        "vless": 70,
+        "hysteria2": 5,
+        "shadowsocks": 10,
+        "vmess": 1
+      },
+      "countries": {
+        "US": 77,
+        "CA": 9
+      }
+    },
+    "sub-eu": {
+      "nodes": 120,
+      "default": "DE vless-01",
+      "protocols": {
+        "vless": 57,
+        "hysteria2": 29,
+        "shadowsocks": 34
+      },
+      "countries": {
+        "DE": 22,
+        "NL": 57,
+        "GB": 21,
+        "FR": 5,
+        "IT": 1,
+        "PL": 6,
+        "SE": 1,
+        "CH": 3,
+        "RO": 1,
+        "EE": 1,
+        "FI": 1,
+        "LV": 1
+      }
+    }
   },
-  "countries": {
-    "JP": 34,
-    "KR": 9,
-    "HK": 11,
-    "TW": 4,
-    "SG": 18,
-    "US": 73,
-    "AU": 2,
-    "CA": 9,
-    "IN": 1,
-    "DE": 9,
-    "NL": 6,
-    "GB": 18,
-    "??": 1,
-    "IT": 1,
-    "FR": 3,
-    "PL": 1
-  },
-  "note": "selector default is a FIXED node; AUTO(urltest) changes exit ip - do not use it for google logins"
+  "note": "每档 selector 默认固定节点；AUTO 会换出口，Google 登录等敏感操作勿用 AUTO"
 }

@@ -11,6 +11,9 @@ Rules
  4. rank: VLESS-Reality first, then nodes close to CN
  5. no silent exit switching: selector default = first fixed node, AUTO (urltest) is last
  6. fail-safe: too few usable nodes -> non-zero exit, CI keeps the previous good file
+
+兼容性提醒: Hiddify 用 Go 严格解析 sing-box JSON，未知字段会整份拒绝（实测
+interrupt_override_count 会报 [SingboxParser] unmarshal error）。只写确定存在的字段。
 """
 import json
 import os
@@ -172,8 +175,8 @@ def main():
         "outbounds": [
             {"tag": "select", "type": "selector", "outbounds": [tags[0]] + tags[1:] + ["AUTO"]},
             {"tag": "AUTO", "type": "urltest", "outbounds": tags,
-             "url": ["https://www.gstatic.com/generate_204", "https://www.google.com/generate_204"],
-             "interval": "15m", "tolerance": 120, "interrupt_override_count": 2},
+             "url": "https://www.gstatic.com/generate_204",
+             "interval": "15m", "tolerance": 120},
             {"tag": "direct", "type": "direct"},
         ] + out,
         "route": {"final": "select"},

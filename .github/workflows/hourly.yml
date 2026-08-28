@@ -23,13 +23,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: build filtered subscription
+      - name: build tiers
         run: python3 build_sub.py
       - name: commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sub sub-stats.json
+          git add -A -- 'sub*'
           if git diff --cached --quiet; then
             echo "nothing to commit"; exit 0
           fi

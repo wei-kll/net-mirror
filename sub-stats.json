@@ -1,16 +1,16 @@
 {
-  "generated_at_utc": "2026-08-29T20:54:04Z",
+  "generated_at_utc": "2026-08-29T23:16:38Z",
   "upstream": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/singbox.json",
-  "upstream_nodes": 1759,
-  "tls_verified": 1017,
-  "unique_exits": 348,
-  "country_shards_used": 33,
+  "upstream_nodes": 1839,
+  "tls_verified": 1108,
+  "unique_exits": 383,
+  "country_shards_used": 32,
   "dropped": {
-    "insecure_cert": 433,
-    "weak_cipher": 28,
-    "plaintext": 280,
+    "insecure_cert": 410,
+    "weak_cipher": 22,
+    "plaintext": 298,
     "type_not_allowed": 1,
-    "dup_exit": 669
+    "dup_exit": 725
   },
   "tiers": {
     "sub": {
@@ -19,18 +19,18 @@
       "protocols": {
         "vless": 189,
         "trojan": 4,
-        "shadowsocks": 3,
-        "hysteria2": 3,
+        "shadowsocks": 5,
+        "hysteria2": 1,
         "tuic": 1
       },
       "countries": {
-        "JP": 56,
-        "TW": 13,
+        "JP": 57,
+        "TW": 14,
         "KR": 7,
-        "HK": 11,
-        "SG": 52,
+        "HK": 15,
+        "SG": 54,
         "MY": 3,
-        "US": 58
+        "US": 50
       }
     },
     "sub-asia": {
@@ -42,44 +42,43 @@
         "shadowsocks": 2
       },
       "countries": {
-        "JP": 56,
-        "TW": 9,
+        "JP": 57,
+        "TW": 10,
         "KR": 5,
         "HK": 8,
-        "SG": 42
+        "SG": 40
       }
     },
     "sub-us": {
-      "nodes": 98,
+      "nodes": 97,
       "default": "US vless-01",
       "protocols": {
         "vless": 83,
         "hysteria2": 3,
-        "shadowsocks": 11,
-        "vmess": 1
+        "shadowsocks": 11
       },
       "countries": {
-        "US": 89,
-        "CA": 9
+        "US": 87,
+        "CA": 10
       }
     },
     "sub-eu": {
-      "nodes": 98,
-      "default": "NL vless-01",
+      "nodes": 120,
+      "default": "GB vless-01",
       "protocols": {
-        "vless": 31,
-        "hysteria2": 25,
-        "shadowsocks": 42
+        "vless": 55,
+        "hysteria2": 22,
+        "shadowsocks": 43
       },
       "countries": {
-        "NL": 52,
-        "GB": 16,
-        "DE": 12,
-        "ES": 3,
-        "FR": 6,
+        "GB": 20,
+        "NL": 59,
+        "FR": 11,
+        "DE": 17,
+        "ES": 5,
+        "CZ": 1,
         "NO": 1,
-        "FI": 2,
-        "CH": 1,
+        "LT": 1,
         "LV": 1,
         "PL": 3,
         "RO": 1

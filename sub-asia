@@ -22,12 +22,12 @@
     "JP trojan-01",
     "JP vless-16",
     "JP trojan-02",
-    "JP vless-17",
     "JP trojan-03",
+    "JP vless-17",
     "JP trojan-04",
+    "JP trojan-05",
     "JP vless-18",
     "JP vless-19",
-    "JP trojan-05",
     "JP shadowsocks-01",
     "SG vless-20",
     "SG vless-21",
@@ -39,30 +39,31 @@
     "SG vless-27",
     "KR vless-28",
     "SG vless-29",
-    "TW vless-30",
-    "SG vless-31",
-    "HK vless-32",
-    "SG vless-33",
+    "SG vless-30",
+    "TW vless-31",
+    "SG vless-32",
+    "HK vless-33",
     "SG vless-34",
     "SG vless-35",
     "SG vless-36",
-    "HK vless-37",
-    "SG vless-38",
-    "HK vless-39",
-    "SG vless-40",
+    "SG vless-37",
+    "HK vless-38",
+    "SG vless-39",
+    "HK vless-40",
+    "SG vless-41",
     "KR hysteria2-01",
     "HK hysteria2-02",
     "HK hysteria2-03",
-    "SG vless-41",
     "SG vless-42",
     "SG vless-43",
     "SG vless-44",
+    "SG vless-45",
     "HK shadowsocks-02",
     "TW shadowsocks-03",
     "TW shadowsocks-04",
-    "VN vless-45",
-    "IN vless-46",
+    "VN vless-46",
     "IN vless-47",
+    "IN vless-48",
     "AUTO"
    ]
   },
@@ -88,12 +89,12 @@
     "JP trojan-01",
     "JP vless-16",
     "JP trojan-02",
-    "JP vless-17",
     "JP trojan-03",
+    "JP vless-17",
     "JP trojan-04",
+    "JP trojan-05",
     "JP vless-18",
     "JP vless-19",
-    "JP trojan-05",
     "JP shadowsocks-01",
     "SG vless-20",
     "SG vless-21",
@@ -105,30 +106,31 @@
     "SG vless-27",
     "KR vless-28",
     "SG vless-29",
-    "TW vless-30",
-    "SG vless-31",
-    "HK vless-32",
-    "SG vless-33",
+    "SG vless-30",
+    "TW vless-31",
+    "SG vless-32",
+    "HK vless-33",
     "SG vless-34",
     "SG vless-35",
     "SG vless-36",
-    "HK vless-37",
-    "SG vless-38",
-    "HK vless-39",
-    "SG vless-40",
+    "SG vless-37",
+    "HK vless-38",
+    "SG vless-39",
+    "HK vless-40",
+    "SG vless-41",
     "KR hysteria2-01",
     "HK hysteria2-02",
     "HK hysteria2-03",
-    "SG vless-41",
     "SG vless-42",
     "SG vless-43",
     "SG vless-44",
+    "SG vless-45",
     "HK shadowsocks-02",
     "TW shadowsocks-03",
     "TW shadowsocks-04",
-    "VN vless-45",
-    "IN vless-46",
-    "IN vless-47"
+    "VN vless-46",
+    "IN vless-47",
+    "IN vless-48"
    ],
    "url": "https://www.gstatic.com/generate_204",
    "interval": "15m",
@@ -523,6 +525,18 @@
    "type": "trojan"
   },
   {
+   "password": "0964f6b7-6aab-4b84-9e80-dd078ed1f269",
+   "server": "jp200m.jiasu.asia",
+   "server_port": 50000,
+   "tag": "JP trojan-03",
+   "tls": {
+    "enabled": true,
+    "insecure": false,
+    "server_name": "jp200m.jiasu.asia"
+   },
+   "type": "trojan"
+  },
+  {
    "server": "104.21.70.21",
    "server_port": 443,
    "tag": "JP vless-17",
@@ -545,7 +559,7 @@
    "password": "0964f6b7-6aab-4b84-9e80-dd078ed1f269",
    "server": "43.165.185.191",
    "server_port": 50000,
-   "tag": "JP trojan-03",
+   "tag": "JP trojan-04",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -557,7 +571,7 @@
    "password": "tsuchiya",
    "server": "161.34.39.108",
    "server_port": 443,
-   "tag": "JP trojan-04",
+   "tag": "JP trojan-05",
    "tls": {
     "alpn": [
      "http/1.1"
@@ -606,22 +620,6 @@
    },
    "type": "vless",
    "uuid": "9b18ccef-b9e0-41d1-8990-9d970569e142"
-  },
-  {
-   "password": "d9ac7c6d-9ca8-4e1b-af9f-d268f69249b5",
-   "server": "jp200m.jiasu.asia",
-   "server_port": 50000,
-   "tag": "JP trojan-05",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "server_name": "jp200m.jiasu.asia",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "type": "trojan"
   },
   {
    "method": "aes-256-gcm",
@@ -831,9 +829,31 @@
   },
   {
    "flow": "xtls-rprx-vision",
+   "server": "13.229.47.178",
+   "server_port": 20414,
+   "tag": "SG vless-29",
+   "tls": {
+    "enabled": true,
+    "insecure": false,
+    "reality": {
+     "enabled": true,
+     "public_key": "H4ZErlTUck4uQYnxtURj9aHLVXQIUHIPMI8dBz7wMVg",
+     "short_id": "ed2cfa4d6d47e0"
+    },
+    "server_name": "www.sony.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    }
+   },
+   "type": "vless",
+   "uuid": "c3e2c992-6721-443f-a051-331cb8a29fad"
+  },
+  {
+   "flow": "xtls-rprx-vision",
    "server": "52.77.240.16",
    "server_port": 15562,
-   "tag": "SG vless-29",
+   "tag": "SG vless-30",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -855,7 +875,7 @@
    "flow": "xtls-rprx-vision",
    "server": "6aa21c4d-11d4-45bf-ba55-59512593692c.7b63595a-1119-4080-80e1-3f638120be58.smartprivatelink.com",
    "server_port": 443,
-   "tag": "TW vless-30",
+   "tag": "TW vless-31",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -877,7 +897,7 @@
    "flow": "xtls-rprx-vision",
    "server": "47.129.200.244",
    "server_port": 41159,
-   "tag": "SG vless-31",
+   "tag": "SG vless-32",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -898,7 +918,7 @@
   {
    "server": "hk6-r.link-t7.com",
    "server_port": 10136,
-   "tag": "HK vless-32",
+   "tag": "HK vless-33",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -923,7 +943,7 @@
   {
    "server": "sg1-r.link-t7.com",
    "server_port": 10036,
-   "tag": "SG vless-33",
+   "tag": "SG vless-34",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -949,7 +969,7 @@
    "flow": "xtls-rprx-vision",
    "server": "56.10.83.247",
    "server_port": 26146,
-   "tag": "SG vless-34",
+   "tag": "SG vless-35",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -971,7 +991,7 @@
    "flow": "xtls-rprx-vision",
    "server": "140.245.109.76",
    "server_port": 8444,
-   "tag": "SG vless-35",
+   "tag": "SG vless-36",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -991,7 +1011,7 @@
   {
    "server": "sg4-r.link-t7.com",
    "server_port": 10039,
-   "tag": "SG vless-36",
+   "tag": "SG vless-37",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -1016,7 +1036,7 @@
   {
    "server": "hk4-r.link-t7.com",
    "server_port": 10129,
-   "tag": "HK vless-37",
+   "tag": "HK vless-38",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -1042,7 +1062,7 @@
    "flow": "xtls-rprx-vision",
    "server": "mn11.levikogjgfdd.ir",
    "server_port": 19825,
-   "tag": "SG vless-38",
+   "tag": "SG vless-39",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -1064,7 +1084,7 @@
    "flow": "xtls-rprx-vision",
    "server": "212.192.13.233",
    "server_port": 443,
-   "tag": "HK vless-39",
+   "tag": "HK vless-40",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -1086,7 +1106,7 @@
    "flow": "xtls-rprx-vision",
    "server": "47.131.211.4",
    "server_port": 33164,
-   "tag": "SG vless-40",
+   "tag": "SG vless-41",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -1143,7 +1163,7 @@
   {
    "server": "139.59.124.172",
    "server_port": 443,
-   "tag": "SG vless-41",
+   "tag": "SG vless-42",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -1158,25 +1178,6 @@
   },
   {
    "server": "91.193.58.198",
-   "server_port": 2096,
-   "tag": "SG vless-42",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "server_name": "free-server.techsonic.dev"
-   },
-   "transport": {
-    "headers": {
-     "Host": "free-server.techsonic.dev"
-    },
-    "path": "/free-server.techsonic.dev",
-    "type": "ws"
-   },
-   "type": "vless",
-   "uuid": "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
-  },
-  {
-   "server": "91.193.58.61",
    "server_port": 2096,
    "tag": "SG vless-43",
    "tls": {
@@ -1195,9 +1196,28 @@
    "uuid": "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
   },
   {
+   "server": "91.193.58.61",
+   "server_port": 2096,
+   "tag": "SG vless-44",
+   "tls": {
+    "enabled": true,
+    "insecure": false,
+    "server_name": "free-server.techsonic.dev"
+   },
+   "transport": {
+    "headers": {
+     "Host": "free-server.techsonic.dev"
+    },
+    "path": "/free-server.techsonic.dev",
+    "type": "ws"
+   },
+   "type": "vless",
+   "uuid": "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
+  },
+  {
    "server": "8.sahanwickramasinghe.me",
    "server_port": 443,
-   "tag": "SG vless-44",
+   "tag": "SG vless-45",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -1237,7 +1257,7 @@
   {
    "server": "165.154.55.105",
    "server_port": 20984,
-   "tag": "VN vless-45",
+   "tag": "VN vless-46",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -1258,7 +1278,7 @@
    "flow": "xtls-rprx-vision",
    "server": "172.237.44.80",
    "server_port": 19567,
-   "tag": "IN vless-46",
+   "tag": "IN vless-47",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -1280,7 +1300,7 @@
    "flow": "xtls-rprx-vision",
    "server": "5.253.30.99",
    "server_port": 40443,
-   "tag": "IN vless-47",
+   "tag": "IN vless-48",
    "tls": {
     "enabled": true,
     "insecure": false,

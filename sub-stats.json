@@ -1,27 +1,28 @@
 {
-  "generated_at_utc": "2026-09-02T21:49:12Z",
+  "generated_at_utc": "2026-09-03T00:11:23Z",
   "upstream": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/singbox.json",
   "upstream_nodes": 1789,
-  "tls_verified": 1030,
-  "unique_exits": 342,
+  "tls_verified": 1035,
+  "unique_exits": 355,
   "country_shards_used": 36,
   "dropped": {
-    "insecure_cert": 480,
-    "weak_cipher": 22,
-    "plaintext": 256,
+    "insecure_cert": 489,
+    "weak_cipher": 20,
+    "plaintext": 244,
     "type_not_allowed": 1,
-    "dup_exit": 688
+    "dup_exit": 680
   },
   "tiers": {
     "sub": {
       "nodes": 200,
       "default": "JP vless-01",
       "protocols": {
-        "vless": 184,
+        "vless": 181,
         "trojan": 4,
-        "hysteria2": 4,
-        "shadowsocks": 7,
-        "tuic": 1
+        "shadowsocks": 9,
+        "tuic": 1,
+        "vmess": 1,
+        "hysteria2": 4
       },
       "countries": {
         "JP": 48,
@@ -38,51 +39,50 @@
       "default": "JP vless-01",
       "protocols": {
         "vless": 110,
-        "trojan": 3,
-        "hysteria2": 1,
+        "trojan": 4,
         "shadowsocks": 6
       },
       "countries": {
         "JP": 48,
-        "HK": 14,
+        "HK": 15,
         "TW": 15,
         "SG": 39,
-        "KR": 4
+        "KR": 3
       }
     },
     "sub-us": {
-      "nodes": 95,
+      "nodes": 89,
       "default": "US vless-01",
       "protocols": {
-        "vless": 79,
+        "vless": 73,
         "hysteria2": 4,
         "shadowsocks": 11,
         "vmess": 1
       },
       "countries": {
-        "US": 89,
-        "CA": 6
+        "US": 84,
+        "CA": 5
       }
     },
     "sub-eu": {
-      "nodes": 108,
+      "nodes": 120,
       "default": "NL vless-01",
       "protocols": {
-        "vless": 38,
+        "vless": 39,
         "hysteria2": 31,
-        "trojan": 1,
-        "shadowsocks": 38
+        "shadowsocks": 50
       },
       "countries": {
-        "NL": 61,
-        "GB": 15,
-        "DE": 14,
-        "FR": 4,
+        "NL": 71,
+        "GB": 16,
+        "DE": 12,
+        "FR": 5,
         "SE": 1,
+        "PL": 6,
+        "AT": 1,
         "NO": 2,
         "RO": 2,
         "LV": 2,
-        "PL": 5,
         "EE": 2
       }
     }

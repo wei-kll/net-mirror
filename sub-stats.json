@@ -1,36 +1,35 @@
 {
-  "generated_at_utc": "2026-09-05T13:52:20Z",
+  "generated_at_utc": "2026-09-05T16:49:02Z",
   "upstream": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/singbox.json",
-  "upstream_nodes": 1746,
-  "tls_verified": 911,
-  "unique_exits": 409,
-  "country_shards_used": 35,
+  "upstream_nodes": 1692,
+  "tls_verified": 929,
+  "unique_exits": 394,
+  "country_shards_used": 34,
   "dropped": {
-    "insecure_cert": 474,
-    "weak_cipher": 30,
-    "plaintext": 330,
+    "insecure_cert": 412,
+    "weak_cipher": 25,
+    "plaintext": 325,
     "type_not_allowed": 1,
-    "dup_exit": 502
+    "dup_exit": 535
   },
   "tiers": {
     "sub": {
       "nodes": 200,
       "default": "JP vless-01",
       "protocols": {
-        "vless": 183,
+        "vless": 178,
         "trojan": 4,
-        "hysteria2": 3,
+        "hysteria2": 8,
         "shadowsocks": 10
       },
       "countries": {
-        "JP": 51,
-        "KR": 7,
-        "SG": 30,
-        "HK": 50,
+        "JP": 44,
+        "KR": 5,
         "TW": 12,
+        "HK": 52,
+        "SG": 28,
         "MY": 2,
-        "VN": 1,
-        "US": 47
+        "US": 57
       }
     },
     "sub-asia": {
@@ -43,23 +42,23 @@
         "shadowsocks": 7
       },
       "countries": {
-        "JP": 51,
+        "JP": 44,
         "KR": 4,
-        "SG": 25,
+        "TW": 10,
         "HK": 34,
-        "TW": 6
+        "SG": 28
       }
     },
     "sub-us": {
-      "nodes": 78,
+      "nodes": 77,
       "default": "US vless-01",
       "protocols": {
-        "vless": 62,
-        "hysteria2": 5,
-        "shadowsocks": 11
+        "vless": 60,
+        "hysteria2": 4,
+        "shadowsocks": 13
       },
       "countries": {
-        "US": 68,
+        "US": 67,
         "CA": 10
       }
     },
@@ -67,24 +66,27 @@
       "nodes": 120,
       "default": "GB vless-01",
       "protocols": {
-        "vless": 72,
-        "hysteria2": 32,
+        "vless": 67,
+        "hysteria2": 26,
         "trojan": 4,
-        "shadowsocks": 12
+        "shadowsocks": 23
       },
       "countries": {
-        "GB": 16,
-        "NL": 43,
-        "DE": 21,
-        "FR": 11,
-        "ES": 1,
+        "GB": 25,
+        "NL": 53,
         "SE": 2,
+        "FR": 6,
+        "DE": 14,
+        "ES": 1,
         "NO": 5,
-        "PL": 5,
-        "FI": 6,
-        "LV": 4,
-        "EE": 4,
-        "RO": 2
+        "IT": 1,
+        "LT": 1,
+        "PL": 1,
+        "LV": 2,
+        "EE": 3,
+        "FI": 3,
+        "RO": 2,
+        "CZ": 1
       }
     }
   },

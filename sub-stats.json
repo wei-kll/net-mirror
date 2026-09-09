@@ -1,16 +1,16 @@
 {
-  "generated_at_utc": "2026-09-08T21:49:46Z",
+  "generated_at_utc": "2026-09-09T00:10:37Z",
   "upstream": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/singbox.json",
-  "upstream_nodes": 1706,
-  "tls_verified": 779,
-  "unique_exits": 281,
+  "upstream_nodes": 1707,
+  "tls_verified": 764,
+  "unique_exits": 278,
   "country_shards_used": 32,
   "dropped": {
-    "insecure_cert": 397,
+    "insecure_cert": 394,
     "weak_cipher": 5,
-    "plaintext": 524,
+    "plaintext": 543,
     "type_not_allowed": 1,
-    "dup_exit": 498
+    "dup_exit": 486
   },
   "tiers": {
     "sub": {
@@ -25,18 +25,18 @@
         "vmess": 1
       },
       "countries": {
-        "JP": 37,
+        "JP": 39,
         "KR": 6,
-        "TW": 10,
-        "HK": 29,
+        "TW": 12,
+        "HK": 27,
         "SG": 26,
         "MY": 2,
-        "VN": 1,
-        "US": 70,
+        "US": 66,
         "AU": 2,
         "CA": 6,
         "IN": 4,
-        "GB": 7
+        "GB": 9,
+        "FR": 1
       }
     },
     "sub-asia": {
@@ -50,38 +50,36 @@
         "tuic": 1
       },
       "countries": {
-        "JP": 37,
+        "JP": 39,
         "KR": 6,
-        "TW": 10,
-        "HK": 29,
+        "TW": 12,
+        "HK": 27,
         "SG": 26,
         "MY": 2,
-        "VN": 1,
         "AU": 2,
-        "IN": 5,
-        "ID": 1
+        "IN": 5
       }
     },
     "sub-us": {
-      "nodes": 76,
+      "nodes": 72,
       "default": "US vless-01",
       "protocols": {
-        "vless": 58,
+        "vless": 54,
         "hysteria2": 4,
         "trojan": 1,
         "shadowsocks": 12,
         "vmess": 1
       },
       "countries": {
-        "US": 70,
+        "US": 66,
         "CA": 6
       }
     },
     "sub-eu": {
-      "nodes": 82,
+      "nodes": 83,
       "default": "GB vless-01",
       "protocols": {
-        "vless": 45,
+        "vless": 46,
         "hysteria2": 18,
         "trojan": 1,
         "shadowsocks": 17,
@@ -90,12 +88,13 @@
       "countries": {
         "GB": 21,
         "FR": 4,
-        "NL": 29,
+        "NL": 28,
         "FI": 1,
-        "DE": 16,
+        "ES": 2,
+        "DE": 15,
         "IT": 1,
-        "ES": 1,
-        "PL": 4,
+        "NO": 1,
+        "PL": 5,
         "LV": 4,
         "RO": 1
       }

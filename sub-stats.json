@@ -1,101 +1,110 @@
 {
-  "generated_at_utc": "2026-09-19T05:48:13Z",
+  "generated_at_utc": "2026-09-19T10:52:35Z",
   "upstream": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/singbox.json",
-  "upstream_nodes": 1707,
-  "tls_verified": 741,
-  "unique_exits": 310,
-  "country_shards_used": 35,
+  "upstream_nodes": 1573,
+  "tls_verified": 717,
+  "unique_exits": 269,
+  "country_shards_used": 32,
   "dropped": {
-    "insecure_cert": 320,
-    "weak_cipher": 47,
-    "plaintext": 598,
+    "insecure_cert": 306,
+    "weak_cipher": 40,
+    "plaintext": 509,
     "type_not_allowed": 1,
-    "dup_exit": 431
+    "dup_exit": 448
   },
   "tiers": {
     "sub": {
       "nodes": 200,
       "default": "JP vless-01",
       "protocols": {
-        "vless": 163,
+        "vless": 161,
         "hysteria2": 9,
-        "trojan": 6,
-        "shadowsocks": 18,
-        "vmess": 3,
+        "trojan": 5,
+        "shadowsocks": 22,
+        "vmess": 2,
         "tuic": 1
       },
       "countries": {
-        "JP": 53,
-        "KR": 7,
+        "JP": 31,
         "TW": 14,
-        "HK": 10,
-        "SG": 14,
-        "TH": 1,
+        "KR": 4,
+        "SG": 11,
+        "HK": 8,
+        "TH": 2,
         "US": 84,
+        "CA": 9,
         "AU": 2,
-        "CA": 11,
-        "IN": 3,
-        "EE": 1
+        "IN": 6,
+        "EE": 1,
+        "NL": 9,
+        "FI": 4,
+        "GB": 3,
+        "DE": 4,
+        "NO": 2,
+        "PL": 1,
+        "ES": 1,
+        "??": 2,
+        "FR": 1,
+        "SE": 1
       }
     },
     "sub-asia": {
-      "nodes": 109,
+      "nodes": 78,
       "default": "JP vless-01",
       "protocols": {
-        "vless": 95,
-        "hysteria2": 5,
+        "vless": 64,
+        "hysteria2": 4,
         "trojan": 3,
-        "shadowsocks": 2,
-        "vmess": 3,
+        "shadowsocks": 4,
+        "vmess": 2,
         "tuic": 1
       },
       "countries": {
-        "JP": 53,
-        "KR": 7,
+        "JP": 31,
         "TW": 14,
-        "HK": 10,
-        "SG": 14,
-        "TH": 1,
+        "KR": 4,
+        "SG": 11,
+        "HK": 8,
+        "TH": 2,
         "AU": 2,
-        "IN": 8
+        "IN": 6
       }
     },
     "sub-us": {
-      "nodes": 95,
+      "nodes": 93,
       "default": "US vless-01",
       "protocols": {
-        "vless": 72,
-        "hysteria2": 4,
-        "trojan": 3,
-        "shadowsocks": 16
+        "vless": 71,
+        "hysteria2": 2,
+        "trojan": 2,
+        "shadowsocks": 18
       },
       "countries": {
         "US": 84,
-        "CA": 11
+        "CA": 9
       }
     },
     "sub-eu": {
-      "nodes": 99,
+      "nodes": 92,
       "default": "EE vless-01",
       "protocols": {
-        "vless": 33,
-        "hysteria2": 14,
-        "trojan": 1,
-        "shadowsocks": 51
+        "vless": 30,
+        "hysteria2": 15,
+        "trojan": 2,
+        "shadowsocks": 45
       },
       "countries": {
         "EE": 1,
-        "FI": 4,
         "NL": 60,
+        "FI": 4,
         "GB": 6,
-        "ES": 3,
-        "DE": 13,
+        "DE": 10,
         "NO": 2,
         "PL": 3,
-        "FR": 4,
-        "BE": 1,
-        "CH": 1,
-        "IT": 1
+        "ES": 1,
+        "FR": 3,
+        "SE": 1,
+        "CH": 1
       }
     }
   },

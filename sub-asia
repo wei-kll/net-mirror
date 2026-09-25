@@ -13,55 +13,45 @@
     "JP vless-07",
     "JP vless-08",
     "JP vless-09",
-    "JP vless-10",
     "JP hysteria2-01",
     "JP trojan-01",
-    "JP vless-11",
     "JP hysteria2-02",
     "JP trojan-02",
+    "JP vless-10",
+    "JP vless-11",
     "JP vless-12",
-    "JP trojan-03",
     "JP vless-13",
-    "JP trojan-04",
     "JP vless-14",
     "JP vless-15",
+    "JP vless-16",
     "JP vmess-01",
     "JP shadowsocks-01",
     "JP shadowsocks-02",
-    "JP shadowsocks-03",
-    "TW vless-16",
-    "SG vless-17",
-    "KR vless-18",
+    "KR vless-17",
+    "TW vless-18",
     "TW vless-19",
-    "SG vless-20",
+    "TW vless-20",
     "HK vless-21",
     "SG vless-22",
-    "TW vless-23",
-    "HK vless-24",
-    "TW vless-25",
+    "SG vless-23",
+    "SG vless-24",
+    "HK vless-25",
     "KR vless-26",
-    "KR vless-27",
-    "SG vless-28",
-    "TW vless-29",
-    "KR vless-30",
-    "SG vless-31",
-    "SG vless-32",
-    "HK vless-33",
-    "HK vless-34",
-    "KR vless-35",
-    "TW vless-36",
+    "SG vless-27",
+    "TW vless-28",
+    "SG vless-29",
     "HK hysteria2-03",
-    "HK trojan-05",
     "KR hysteria2-04",
+    "HK trojan-03",
     "KR hysteria2-05",
-    "TW hysteria2-06",
-    "KR hysteria2-07",
-    "MY vless-37",
-    "AU vless-38",
-    "AU vless-39",
-    "IN vless-40",
-    "IN vless-41",
-    "IN vless-42",
+    "KR hysteria2-06",
+    "SG tuic-01",
+    "TW vmess-02",
+    "AU vless-30",
+    "IN vless-31",
+    "IN vless-32",
+    "IN vless-33",
+    "IN vless-34",
     "AUTO"
    ]
   },
@@ -78,55 +68,45 @@
     "JP vless-07",
     "JP vless-08",
     "JP vless-09",
-    "JP vless-10",
     "JP hysteria2-01",
     "JP trojan-01",
-    "JP vless-11",
     "JP hysteria2-02",
     "JP trojan-02",
+    "JP vless-10",
+    "JP vless-11",
     "JP vless-12",
-    "JP trojan-03",
     "JP vless-13",
-    "JP trojan-04",
     "JP vless-14",
     "JP vless-15",
+    "JP vless-16",
     "JP vmess-01",
     "JP shadowsocks-01",
     "JP shadowsocks-02",
-    "JP shadowsocks-03",
-    "TW vless-16",
-    "SG vless-17",
-    "KR vless-18",
+    "KR vless-17",
+    "TW vless-18",
     "TW vless-19",
-    "SG vless-20",
+    "TW vless-20",
     "HK vless-21",
     "SG vless-22",
-    "TW vless-23",
-    "HK vless-24",
-    "TW vless-25",
+    "SG vless-23",
+    "SG vless-24",
+    "HK vless-25",
     "KR vless-26",
-    "KR vless-27",
-    "SG vless-28",
-    "TW vless-29",
-    "KR vless-30",
-    "SG vless-31",
-    "SG vless-32",
-    "HK vless-33",
-    "HK vless-34",
-    "KR vless-35",
-    "TW vless-36",
+    "SG vless-27",
+    "TW vless-28",
+    "SG vless-29",
     "HK hysteria2-03",
-    "HK trojan-05",
     "KR hysteria2-04",
+    "HK trojan-03",
     "KR hysteria2-05",
-    "TW hysteria2-06",
-    "KR hysteria2-07",
-    "MY vless-37",
-    "AU vless-38",
-    "AU vless-39",
-    "IN vless-40",
-    "IN vless-41",
-    "IN vless-42"
+    "KR hysteria2-06",
+    "SG tuic-01",
+    "TW vmess-02",
+    "AU vless-30",
+    "IN vless-31",
+    "IN vless-32",
+    "IN vless-33",
+    "IN vless-34"
    ],
    "url": "https://www.gstatic.com/generate_204",
    "interval": "15m",
@@ -159,53 +139,9 @@
    "uuid": "e4cd263b-c5c7-4410-bf61-8893179ec429"
   },
   {
-   "flow": "xtls-rprx-vision",
-   "server": "154.31.114.248",
-   "server_port": 50159,
-   "tag": "JP vless-02",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA",
-     "short_id": "091e1c5db8451757"
-    },
-    "server_name": "www.cloudflare.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    }
-   },
-   "type": "vless",
-   "uuid": "d56624b2-35bb-468c-9b2a-e0b0df7230c1"
-  },
-  {
-   "flow": "xtls-rprx-vision",
-   "server": "103.137.215.122",
-   "server_port": 443,
-   "tag": "JP vless-03",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "T587xqua0Nrs0YreQRWJAP9Wto94NcbbhKPK4DkSi0c",
-     "short_id": "2223411c2ad9c55f"
-    },
-    "server_name": "www.apple.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "safari"
-    }
-   },
-   "type": "vless",
-   "uuid": "ea1c1e20-7263-4b08-a01b-690b29af66b3"
-  },
-  {
    "server": "34.84.126.188",
    "server_port": 443,
-   "tag": "JP vless-04",
+   "tag": "JP vless-02",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -225,9 +161,31 @@
   },
   {
    "flow": "xtls-rprx-vision",
+   "server": "154.31.114.248",
+   "server_port": 50159,
+   "tag": "JP vless-03",
+   "tls": {
+    "enabled": true,
+    "insecure": false,
+    "reality": {
+     "enabled": true,
+     "public_key": "j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA",
+     "short_id": "091e1c5db8451757"
+    },
+    "server_name": "www.cloudflare.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "type": "vless",
+   "uuid": "d56624b2-35bb-468c-9b2a-e0b0df7230c1"
+  },
+  {
+   "flow": "xtls-rprx-vision",
    "server": "3.114.220.22",
-   "server_port": 10583,
-   "tag": "JP vless-05",
+   "server_port": 18007,
+   "tag": "JP vless-04",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -239,32 +197,55 @@
     "server_name": "www.apple.com",
     "utls": {
      "enabled": true,
-     "fingerprint": "chrome"
+     "fingerprint": "firefox"
     }
    },
    "type": "vless",
    "uuid": "814bd064-544d-4255-a070-5705c03f6da9"
   },
   {
-   "server": "46.250.250.149",
-   "server_port": 2053,
+   "flow": "xtls-rprx-vision",
+   "server": "38.207.130.15",
+   "server_port": 443,
+   "tag": "JP vless-05",
+   "tls": {
+    "enabled": true,
+    "insecure": false,
+    "reality": {
+     "enabled": true,
+     "public_key": "sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE",
+     "short_id": "6d962e8d8a0dce"
+    },
+    "server_name": "amazon.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "type": "vless",
+   "uuid": "e4cd263b-c5c7-4410-bf61-8893179ec429"
+  },
+  {
+   "flow": "xtls-rprx-vision",
+   "server": "103.137.215.122",
+   "server_port": 443,
    "tag": "JP vless-06",
    "tls": {
     "enabled": true,
     "insecure": false,
     "reality": {
      "enabled": true,
-     "public_key": "hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M",
-     "short_id": "9922313fffed1c63"
+     "public_key": "T587xqua0Nrs0YreQRWJAP9Wto94NcbbhKPK4DkSi0c",
+     "short_id": "2223411c2ad9c55f"
     },
     "server_name": "www.apple.com",
     "utls": {
      "enabled": true,
-     "fingerprint": "firefox"
+     "fingerprint": "safari"
     }
    },
    "type": "vless",
-   "uuid": "b4caaf57-ad77-4948-a6f5-51b3513799bf"
+   "uuid": "ea1c1e20-7263-4b08-a01b-690b29af66b3"
   },
   {
    "flow": "xtls-rprx-vision",
@@ -289,26 +270,25 @@
    "uuid": "e2b8b217-cffb-4d66-9b8b-eca6e4334032"
   },
   {
-   "flow": "xtls-rprx-vision",
-   "server": "38.207.130.15",
-   "server_port": 443,
+   "server": "46.250.250.149",
+   "server_port": 2053,
    "tag": "JP vless-08",
    "tls": {
     "enabled": true,
     "insecure": false,
     "reality": {
      "enabled": true,
-     "public_key": "sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE",
-     "short_id": "6d962e8d8a0dce"
+     "public_key": "hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M",
+     "short_id": "9922313fffed1c63"
     },
-    "server_name": "amazon.com",
+    "server_name": "www.apple.com",
     "utls": {
      "enabled": true,
-     "fingerprint": "chrome"
+     "fingerprint": "firefox"
     }
    },
    "type": "vless",
-   "uuid": "e4cd263b-c5c7-4410-bf61-8893179ec429"
+   "uuid": "b4caaf57-ad77-4948-a6f5-51b3513799bf"
   },
   {
    "flow": "xtls-rprx-vision",
@@ -326,33 +306,11 @@
     "server_name": "www.sony.com",
     "utls": {
      "enabled": true,
-     "fingerprint": "random"
-    }
-   },
-   "type": "vless",
-   "uuid": "871bfce7-8440-4394-8d82-56b51f20fdad"
-  },
-  {
-   "flow": "xtls-rprx-vision",
-   "server": "beatrice1.nkinscloud.icu",
-   "server_port": 2053,
-   "tag": "JP vless-10",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "jZBQ14vBPrMIqdj3NvgfpchLZvJYm1EdmW7ZBU9t9HI",
-     "short_id": "16c005b0"
-    },
-    "server_name": "www.tesla.com",
-    "utls": {
-     "enabled": true,
      "fingerprint": "safari"
     }
    },
    "type": "vless",
-   "uuid": "73ddc64f-0e5a-4528-bb15-decc8a373826"
+   "uuid": "871bfce7-8440-4394-8d82-56b51f20fdad"
   },
   {
    "password": "my_super_password_123",
@@ -374,32 +332,13 @@
    "tls": {
     "enabled": true,
     "insecure": false,
-    "server_name": "aa.ccmusic.jp"
-   },
-   "type": "trojan"
-  },
-  {
-   "server": "104.21.70.21",
-   "server_port": 443,
-   "tag": "JP vless-11",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "server_name": "jp3.yohototo.top",
+    "server_name": "aa.ccmusic.jp",
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
     }
    },
-   "transport": {
-    "headers": {
-     "Host": "jp3.yohototo.top"
-    },
-    "path": "/tyxyws",
-    "type": "ws"
-   },
-   "type": "vless",
-   "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+   "type": "trojan"
   },
   {
    "password": "my_super_password_123",
@@ -414,36 +353,29 @@
    "type": "hysteria2"
   },
   {
-   "password": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
-   "server": "jp3.998998.best",
+   "password": "tsuchiya",
+   "server": "161.34.39.108",
    "server_port": 443,
    "tag": "JP trojan-02",
    "tls": {
     "enabled": true,
     "insecure": false,
-    "server_name": "nat11.outsidemyheart.space"
-   },
-   "transport": {
-    "headers": {
-     "Host": "nat11.outsidemyheart.space"
-    },
-    "path": "/w4e5yh0p945y3",
-    "type": "ws"
+    "server_name": "aa.ccmusic.jp",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
    },
    "type": "trojan"
   },
   {
-   "server": "172.67.217.240",
+   "server": "172.67.156.147",
    "server_port": 443,
-   "tag": "JP vless-12",
+   "tag": "JP vless-10",
    "tls": {
     "enabled": true,
     "insecure": false,
-    "server_name": "jp3.yohototo.top",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "ios"
-    }
+    "server_name": "jp3.yohototo.top"
    },
    "transport": {
     "headers": {
@@ -456,19 +388,42 @@
    "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
   },
   {
-   "password": "tsuchiya",
-   "server": "161.34.39.108",
+   "server": "45.202.255.219",
    "server_port": 443,
-   "tag": "JP trojan-03",
+   "tag": "JP vless-11",
    "tls": {
     "enabled": true,
     "insecure": false,
-    "server_name": "aa.ccmusic.jp"
+    "server_name": "2ymxf.st3o.5o7.hh.vavava.kdns.fr"
    },
-   "type": "trojan"
+   "transport": {
+    "headers": {
+     "Host": "2ymxf.st3o.5o7.hh.vavava.kdns.fr"
+    },
+    "path": "/",
+    "type": "ws"
+   },
+   "type": "vless",
+   "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
   },
   {
-   "server": "162.159.254.3",
+   "server": "pruritus.patiromer.workers.dev",
+   "server_port": 443,
+   "tag": "JP vless-12",
+   "tls": {
+    "enabled": true,
+    "insecure": false,
+    "server_name": "pruritus.patiromer.workers.dev"
+   },
+   "transport": {
+    "path": "/ ",
+    "type": "ws"
+   },
+   "type": "vless",
+   "uuid": "0659eac3-137b-4002-ba2e-88da4d071235"
+  },
+  {
+   "server": "104.16.10.185",
    "server_port": 443,
    "tag": "JP vless-13",
    "tls": {
@@ -491,49 +446,26 @@
    "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
   },
   {
-   "password": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
-   "server": "104.18.41.190",
+   "server": "162.159.254.3",
    "server_port": 443,
-   "tag": "JP trojan-04",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "server_name": "nat11.outsidemyheart.space"
-   },
-   "transport": {
-    "headers": {
-     "Host": "nat11.outsidemyheart.space"
-    },
-    "path": "/w4e5yh0p945y3",
-    "type": "ws"
-   },
-   "type": "trojan"
-  },
-  {
-   "server": "104.18.47.140",
-   "server_port": 2096,
    "tag": "JP vless-14",
    "tls": {
     "enabled": true,
     "insecure": false,
-    "server_name": "rainfall0705.cc.cd",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
+    "server_name": "jp3.yohototo.top"
    },
    "transport": {
     "headers": {
-     "Host": "rainfall0705.cc.cd"
+     "Host": "jp3.yohototo.top"
     },
-    "path": "/",
+    "path": "/tyxyws",
     "type": "ws"
    },
    "type": "vless",
-   "uuid": "341832cc-ba98-425b-8225-b3db621a0da3"
+   "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
   },
   {
-   "server": "172.67.156.147",
+   "server": "172.67.217.240",
    "server_port": 443,
    "tag": "JP vless-15",
    "tls": {
@@ -543,6 +475,29 @@
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "headers": {
+     "Host": "jp3.yohototo.top"
+    },
+    "path": "/tyxyws",
+    "type": "ws"
+   },
+   "type": "vless",
+   "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+  },
+  {
+   "server": "188.114.97.6",
+   "server_port": 443,
+   "tag": "JP vless-16",
+   "tls": {
+    "enabled": true,
+    "insecure": false,
+    "server_name": "jp3.yohototo.top",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
     }
    },
    "transport": {
@@ -574,77 +529,26 @@
    "uuid": "ac251237-576f-40c8-a543-554960c958b1"
   },
   {
-   "method": "aes-256-gcm",
-   "password": "3eOFeNssde7PYYMv",
-   "server": "84.247.155.196",
+   "method": "aes-128-gcm",
+   "password": "shadowsocks",
+   "server": "149.22.87.204",
    "server_port": 443,
    "tag": "JP shadowsocks-01",
    "type": "shadowsocks"
   },
   {
-   "method": "aes-128-gcm",
-   "password": "shadowsocks",
-   "server": "149.22.87.241",
+   "method": "aes-256-gcm",
+   "password": "3eOFeNssde7PYYMv",
+   "server": "84.247.155.196",
    "server_port": 443,
    "tag": "JP shadowsocks-02",
    "type": "shadowsocks"
   },
   {
-   "method": "aes-128-gcm",
-   "password": "shadowsocks",
-   "server": "149.22.87.240",
-   "server_port": 443,
-   "tag": "JP shadowsocks-03",
-   "type": "shadowsocks"
-  },
-  {
-   "flow": "xtls-rprx-vision",
-   "server": "35.201.163.218",
-   "server_port": 30837,
-   "tag": "TW vless-16",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo",
-     "short_id": "97101ba788915e5a"
-    },
-    "server_name": "www.sony.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "type": "vless",
-   "uuid": "85a6bd94-83a9-4e80-849f-c06d7011d1a4"
-  },
-  {
-   "server": "217.217.254.126",
-   "server_port": 2053,
-   "tag": "SG vless-17",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-     "short_id": "87829de0e2bb82cb"
-    },
-    "server_name": "www.cloudflare.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "type": "vless",
-   "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9"
-  },
-  {
    "flow": "xtls-rprx-vision",
    "server": "3.39.4.109",
    "server_port": 13672,
-   "tag": "KR vless-18",
+   "tag": "KR vless-17",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -656,11 +560,33 @@
     "server_name": "www.apple.com",
     "utls": {
      "enabled": true,
-     "fingerprint": "chrome"
+     "fingerprint": "qq"
     }
    },
    "type": "vless",
    "uuid": "814bd064-544d-4255-a070-5705c03f6da9"
+  },
+  {
+   "flow": "xtls-rprx-vision",
+   "server": "35.194.157.16",
+   "server_port": 43450,
+   "tag": "TW vless-18",
+   "tls": {
+    "enabled": true,
+    "insecure": false,
+    "reality": {
+     "enabled": true,
+     "public_key": "HNPJBiUbqYVC3ylvu1GA7fCHLTaHO7S13Bex1nm0O1o",
+     "short_id": "e65d010354bdad73"
+    },
+    "server_name": "www.amd.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "random"
+    }
+   },
+   "type": "vless",
+   "uuid": "64d77a12-ad6b-4d85-a349-bd287535af1c"
   },
   {
    "flow": "xtls-rprx-vision",
@@ -678,7 +604,7 @@
     "server_name": "www.sony.com",
     "utls": {
      "enabled": true,
-     "fingerprint": "firefox"
+     "fingerprint": "random"
     }
    },
    "type": "vless",
@@ -686,96 +612,30 @@
   },
   {
    "flow": "xtls-rprx-vision",
-   "server": "206.206.76.75",
-   "server_port": 443,
-   "tag": "SG vless-20",
+   "server": "35.201.163.218",
+   "server_port": 30837,
+   "tag": "TW vless-20",
    "tls": {
     "enabled": true,
     "insecure": false,
     "reality": {
      "enabled": true,
-     "public_key": "TqIFzUEEI1pIOR8BEpkNKEXcJ6cPfE5EzHb5joIivig",
-     "short_id": "9930177816ab09da"
+     "public_key": "LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo",
+     "short_id": "97101ba788915e5a"
     },
-    "server_name": "www.cloudflare.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "random"
-    }
-   },
-   "type": "vless",
-   "uuid": "1e3d3634-36ac-43ac-a439-9665d885238f"
-  },
-  {
-   "flow": "xtls-rprx-vision",
-   "server": "hk-1.gsafevpnapi.com",
-   "server_port": 20270,
-   "tag": "HK vless-21",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "0MIamX22OTB4zDokZ5WN_GHBVYs7MkFceuipUvql9Q8",
-     "short_id": "d5b538acf8a93540"
-    },
-    "server_name": "www.yahoo.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "type": "vless",
-   "uuid": "8f2774ba-73fe-404d-a01b-7c01812ff75b"
-  },
-  {
-   "flow": "xtls-rprx-vision",
-   "server": "3.0.111.82",
-   "server_port": 17623,
-   "tag": "SG vless-22",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-     "short_id": "48050fab"
-    },
-    "server_name": "www.apple.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "safari"
-    }
-   },
-   "type": "vless",
-   "uuid": "814bd064-544d-4255-a070-5705c03f6da9"
-  },
-  {
-   "flow": "xtls-rprx-vision",
-   "server": "35.194.157.16",
-   "server_port": 43450,
-   "tag": "TW vless-23",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "HNPJBiUbqYVC3ylvu1GA7fCHLTaHO7S13Bex1nm0O1o",
-     "short_id": "e65d010354bdad73"
-    },
-    "server_name": "www.amd.com",
+    "server_name": "www.sony.com",
     "utls": {
      "enabled": true,
      "fingerprint": "firefox"
     }
    },
    "type": "vless",
-   "uuid": "64d77a12-ad6b-4d85-a349-bd287535af1c"
+   "uuid": "85a6bd94-83a9-4e80-849f-c06d7011d1a4"
   },
   {
    "server": "34.92.145.185",
    "server_port": 443,
-   "tag": "HK vless-24",
+   "tag": "HK vless-21",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -795,25 +655,90 @@
   },
   {
    "flow": "xtls-rprx-vision",
-   "server": "104.199.134.231",
-   "server_port": 28364,
-   "tag": "TW vless-25",
+   "server": "206.206.76.75",
+   "server_port": 443,
+   "tag": "SG vless-22",
    "tls": {
     "enabled": true,
     "insecure": false,
     "reality": {
      "enabled": true,
-     "public_key": "NPhCET0GkjSZuKg4vWsPHLvjYGHW9w99Ucxvavu0-1I",
-     "short_id": "7241c359c2dfab"
+     "public_key": "TqIFzUEEI1pIOR8BEpkNKEXcJ6cPfE5EzHb5joIivig",
+     "short_id": "9930177816ab09da"
     },
-    "server_name": "www.sony.com",
+    "server_name": "www.cloudflare.com",
     "utls": {
      "enabled": true,
      "fingerprint": "firefox"
     }
    },
    "type": "vless",
-   "uuid": "3a62a0c2-ba80-43a9-b757-9aca88b0552e"
+   "uuid": "1e3d3634-36ac-43ac-a439-9665d885238f"
+  },
+  {
+   "server": "217.217.254.126",
+   "server_port": 2053,
+   "tag": "SG vless-23",
+   "tls": {
+    "enabled": true,
+    "insecure": false,
+    "reality": {
+     "enabled": true,
+     "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+     "short_id": "87829de0e2bb82cb"
+    },
+    "server_name": "www.cloudflare.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    }
+   },
+   "type": "vless",
+   "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9"
+  },
+  {
+   "flow": "xtls-rprx-vision",
+   "server": "46.137.202.178",
+   "server_port": 12512,
+   "tag": "SG vless-24",
+   "tls": {
+    "enabled": true,
+    "insecure": false,
+    "reality": {
+     "enabled": true,
+     "public_key": "sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA",
+     "short_id": "e692a8250d2e2fd0"
+    },
+    "server_name": "www.intel.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "random"
+    }
+   },
+   "type": "vless",
+   "uuid": "2a6c617d-98e4-49c3-95ab-76f02fcf0150"
+  },
+  {
+   "flow": "xtls-rprx-vision",
+   "server": "185.227.154.226",
+   "server_port": 443,
+   "tag": "HK vless-25",
+   "tls": {
+    "enabled": true,
+    "insecure": false,
+    "reality": {
+     "enabled": true,
+     "public_key": "qxcpzDbypXaxsvsvzvebnyHxc0BTQdz7LvIkBXZ0TUc",
+     "short_id": "3246e72c"
+    },
+    "server_name": "www.samsung.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "qq"
+    }
+   },
+   "type": "vless",
+   "uuid": "b0e3d7fe-0ff5-470d-9c69-4f624a35d683"
   },
   {
    "server": "151.245.106.49",
@@ -837,119 +762,54 @@
    "uuid": "a2de9567-9646-45a9-a410-7303a43bdb6c"
   },
   {
-   "server": "kr2-r.link-t7.com",
-   "server_port": 10047,
-   "tag": "KR vless-27",
+   "flow": "xtls-rprx-vision",
+   "server": "3.0.111.82",
+   "server_port": 17623,
+   "tag": "SG vless-27",
    "tls": {
     "enabled": true,
     "insecure": false,
     "reality": {
      "enabled": true,
-     "public_key": "wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE",
-     "short_id": "686c0ef0"
+     "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+     "short_id": "48050fab"
     },
-    "server_name": "s0.awsstatic.com",
+    "server_name": "www.apple.com",
     "utls": {
      "enabled": true,
-     "fingerprint": "chrome"
+     "fingerprint": "qq"
     }
    },
-   "transport": {
-    "service_name": "update",
-    "type": "grpc"
-   },
    "type": "vless",
-   "uuid": "58C828CD-3EBA-46F9-B297-16003D7A6E68"
+   "uuid": "814bd064-544d-4255-a070-5705c03f6da9"
   },
   {
    "flow": "xtls-rprx-vision",
-   "server": "46.137.202.178",
-   "server_port": 12512,
-   "tag": "SG vless-28",
+   "server": "104.199.134.231",
+   "server_port": 28364,
+   "tag": "TW vless-28",
    "tls": {
     "enabled": true,
     "insecure": false,
     "reality": {
      "enabled": true,
-     "public_key": "sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA",
-     "short_id": "e692a8250d2e2fd0"
+     "public_key": "NPhCET0GkjSZuKg4vWsPHLvjYGHW9w99Ucxvavu0-1I",
+     "short_id": "7241c359c2dfab"
     },
-    "server_name": "www.intel.com",
+    "server_name": "www.sony.com",
     "utls": {
      "enabled": true,
      "fingerprint": "random"
     }
    },
    "type": "vless",
-   "uuid": "2a6c617d-98e4-49c3-95ab-76f02fcf0150"
-  },
-  {
-   "server": "118.167.230.191",
-   "server_port": 24215,
-   "tag": "TW vless-29",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE"
-    },
-    "server_name": "addons.mozilla.org",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    }
-   },
-   "type": "vless",
-   "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a"
-  },
-  {
-   "server": "13.124.154.208",
-   "server_port": 8686,
-   "tag": "KR vless-30",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw",
-     "short_id": "628b3c90c98ead4f"
-    },
-    "server_name": "www.apple.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "type": "vless",
-   "uuid": "1a17b19d-4896-4531-af79-6e91d8ef8228"
-  },
-  {
-   "flow": "xtls-rprx-vision",
-   "server": "sg2-8sb.6121999.dpdns.org",
-   "server_port": 19825,
-   "tag": "SG vless-31",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI"
-    },
-    "server_name": "sg2-8sb.6121999.dpdns.org",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "type": "vless",
-   "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51"
+   "uuid": "3a62a0c2-ba80-43a9-b757-9aca88b0552e"
   },
   {
    "flow": "xtls-rprx-vision",
    "server": "146.235.16.130",
    "server_port": 19825,
-   "tag": "SG vless-32",
+   "tag": "SG vless-29",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -961,99 +821,11 @@
     "server_name": "sg2-8sb.6121999.dpdns.org",
     "utls": {
      "enabled": true,
-     "fingerprint": "chrome"
+     "fingerprint": "firefox"
     }
    },
    "type": "vless",
    "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51"
-  },
-  {
-   "flow": "xtls-rprx-vision",
-   "server": "141.11.238.17",
-   "server_port": 443,
-   "tag": "HK vless-33",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "3xV5ZMHcMyfWXOAD_-FdX5M973QiqUfdCo8OgPcz_k8",
-     "short_id": "8eb5"
-    },
-    "server_name": "www.cloudflare.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "type": "vless",
-   "uuid": "596be9d9-0bb9-41bc-bff5-1adb483cbc32"
-  },
-  {
-   "flow": "xtls-rprx-vision",
-   "server": "156.226.168.221",
-   "server_port": 35193,
-   "tag": "HK vless-34",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE",
-     "short_id": "e8daed2d"
-    },
-    "server_name": "www.apple.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "safari"
-    }
-   },
-   "type": "vless",
-   "uuid": "35cbae61-ee10-4cb9-abb8-4950b35e9851"
-  },
-  {
-   "flow": "xtls-rprx-vision",
-   "server": "krtmp.deepfind.site",
-   "server_port": 2053,
-   "tag": "KR vless-35",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8",
-     "short_id": "85"
-    },
-    "server_name": "www.tesla.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "ios"
-    }
-   },
-   "type": "vless",
-   "uuid": "73ddc64f-0e5a-4528-bb15-decc8a373826"
-  },
-  {
-   "flow": "xtls-rprx-vision",
-   "server": "210.79.155.98",
-   "server_port": 60011,
-   "tag": "TW vless-36",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "n4lBj6UGcj-O-SmvKXHC_uLtp0IyefVCVMVhPz6WsQg",
-     "short_id": "1be9ffe7d5"
-    },
-    "server_name": "www.cloudflare.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "qq"
-    }
-   },
-   "type": "vless",
-   "uuid": "73ddc64f-0e5a-4528-bb15-decc8a373826"
   },
   {
    "password": "HysTeria2026!Proxy",
@@ -1068,10 +840,22 @@
    "type": "hysteria2"
   },
   {
+   "password": "1beb216e3f60aea9555dae60d219a5ca",
+   "server": "152-69-231-175.liao.kdns.fr",
+   "server_port": 50160,
+   "tag": "KR hysteria2-04",
+   "tls": {
+    "enabled": true,
+    "insecure": false,
+    "server_name": "152-69-231-175.liao.kdns.fr"
+   },
+   "type": "hysteria2"
+  },
+  {
    "password": "XuMweB2PWs",
    "server": "2.27.109.179",
    "server_port": 45464,
-   "tag": "HK trojan-05",
+   "tag": "HK trojan-03",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -1084,46 +868,10 @@
    "type": "trojan"
   },
   {
-   "password": "3d7634af8cb2c6cb4bac1c0efad8b43d",
-   "server": "152.67.200.82",
-   "server_port": 50160,
-   "tag": "KR hysteria2-04",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "server_name": "152-67-200-82.liao.kdns.fr"
-   },
-   "type": "hysteria2"
-  },
-  {
-   "password": "1beb216e3f60aea9555dae60d219a5ca",
-   "server": "152-69-231-175.liao.kdns.fr",
-   "server_port": 50160,
-   "tag": "KR hysteria2-05",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "server_name": "152-69-231-175.liao.kdns.fr"
-   },
-   "type": "hysteria2"
-  },
-  {
-   "password": "a56619e2bed91121eabb97d20be207c3",
-   "server": "85.237.207.49",
-   "server_port": 50160,
-   "tag": "TW hysteria2-06",
-   "tls": {
-    "enabled": true,
-    "insecure": false,
-    "server_name": "85-237-207-49.liao.kdns.fr"
-   },
-   "type": "hysteria2"
-  },
-  {
    "password": "9cfc9458e48c028ec03ff86ebc71c744",
    "server": "150-230-252-217.liao.kdns.fr",
    "server_port": 50160,
-   "tag": "KR hysteria2-07",
+   "tag": "KR hysteria2-05",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -1132,32 +880,56 @@
    "type": "hysteria2"
   },
   {
-   "flow": "xtls-rprx-vision",
-   "server": "mlxytmp.deepfind.site",
-   "server_port": 10298,
-   "tag": "MY vless-37",
+   "password": "3d7634af8cb2c6cb4bac1c0efad8b43d",
+   "server": "152.67.200.82",
+   "server_port": 50160,
+   "tag": "KR hysteria2-06",
    "tls": {
     "enabled": true,
     "insecure": false,
-    "reality": {
-     "enabled": true,
-     "public_key": "KZUlOnK6frAx_HFpwG0TGu-Lwhtu4507gIGNsLK-kko",
-     "short_id": "d0b14a7f0c52"
-    },
-    "server_name": "www.cloudflare.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "edge"
-    }
+    "server_name": "152-67-200-82.liao.kdns.fr"
    },
-   "type": "vless",
-   "uuid": "73ddc64f-0e5a-4528-bb15-decc8a373826"
+   "type": "hysteria2"
+  },
+  {
+   "congestion_control": "bbr",
+   "password": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "server": "sg2-8sb.6121999.dpdns.org",
+   "server_port": 33738,
+   "tag": "SG tuic-01",
+   "tls": {
+    "alpn": [
+     "h3"
+    ],
+    "enabled": true,
+    "insecure": false,
+    "server_name": "sg2-8sb.6121999.dpdns.org"
+   },
+   "type": "tuic",
+   "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51"
+  },
+  {
+   "alter_id": 0,
+   "security": "auto",
+   "server": "24864168545164.oylfmxz.cn",
+   "server_port": 443,
+   "tag": "TW vmess-02",
+   "tls": {
+    "enabled": true,
+    "insecure": false,
+    "server_name": "24864168545164.oylfmxz.cn"
+   },
+   "transport": {
+    "type": "ws"
+   },
+   "type": "vmess",
+   "uuid": "d90e4077-bc7e-414d-a650-70bf1baae4d6"
   },
   {
    "flow": "xtls-rprx-vision",
    "server": "51.161.204.244",
    "server_port": 443,
-   "tag": "AU vless-38",
+   "tag": "AU vless-30",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -1177,30 +949,30 @@
   },
   {
    "flow": "xtls-rprx-vision",
-   "server": "au1.gsafevpnapi.com",
-   "server_port": 20270,
-   "tag": "AU vless-39",
+   "server": "5.253.28.240",
+   "server_port": 40443,
+   "tag": "IN vless-31",
    "tls": {
     "enabled": true,
     "insecure": false,
     "reality": {
      "enabled": true,
-     "public_key": "RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE",
-     "short_id": "e6a5a4a9115456de"
+     "public_key": "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0",
+     "short_id": "88b6"
     },
-    "server_name": "www.yahoo.com",
+    "server_name": "deepl.com",
     "utls": {
      "enabled": true,
-     "fingerprint": "chrome"
+     "fingerprint": "firefox"
     }
    },
    "type": "vless",
-   "uuid": "38b8e2fb-b9a0-40a6-b42c-335def2765cf"
+   "uuid": "405b964e-a2d2-454f-aaaa-711cc218897c"
   },
   {
    "server": "194.61.31.126",
    "server_port": 2053,
-   "tag": "IN vless-40",
+   "tag": "IN vless-32",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -1220,9 +992,9 @@
   },
   {
    "flow": "xtls-rprx-vision",
-   "server": "5.253.28.242",
+   "server": "5.253.29.16",
    "server_port": 40443,
-   "tag": "IN vless-41",
+   "tag": "IN vless-33",
    "tls": {
     "enabled": true,
     "insecure": false,
@@ -1241,29 +1013,26 @@
    "uuid": "af5eac96-e478-488a-bc8c-45269d7e8847"
   },
   {
-   "server": "hydra.yokkastars.com",
-   "server_port": 2443,
-   "tag": "IN vless-42",
+   "flow": "xtls-rprx-vision",
+   "server": "5.253.28.242",
+   "server_port": 40443,
+   "tag": "IN vless-34",
    "tls": {
     "enabled": true,
     "insecure": false,
     "reality": {
      "enabled": true,
-     "public_key": "h85e28MxBgNyT9d9cNeOLVtWfHq6cT_1_oxZOTajtTg",
-     "short_id": "92c32de179e5d908"
+     "public_key": "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw",
+     "short_id": "68a8"
     },
     "server_name": "deepl.com",
     "utls": {
      "enabled": true,
-     "fingerprint": "qq"
+     "fingerprint": "random"
     }
    },
-   "transport": {
-    "service_name": "rex-eb0bf76b710ce763",
-    "type": "grpc"
-   },
    "type": "vless",
-   "uuid": "5e679ccd-1586-4d5f-b87b-48251046cad8"
+   "uuid": "af5eac96-e478-488a-bc8c-45269d7e8847"
   }
  ],
  "route": {

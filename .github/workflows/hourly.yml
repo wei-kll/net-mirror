@@ -1,7 +1,9 @@
 name: sync
 on:
   schedule:
+    # GitHub 对高频 cron 会丢触发（实测 hourly 实际 4~10 小时才跑一次），多挂几个分钟点提高命中率
     - cron: "7 * * * *"
+    - cron: "37 * * * *"
   workflow_dispatch:
   push:
     branches: ["main"]
@@ -16,8 +18,13 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     if: github.actor != 'github-actions[bot]'
+    env:
+      PROBE: "1"
+      PROBE_LIMIT: "2200"
+      PROBE_TIMEOUT: "2.0"
+      PROBE_BUDGET: "300"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

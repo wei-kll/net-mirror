@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-20T02:31:50Z",
+  "generated_at_utc": "2026-11-20T03:04:06Z",
   "sources": {
     "Eternity.txt": 200,
     "EternityAir.txt": 61,
@@ -7,11 +7,11 @@
     "raw.githubusercontent.com": 10801,
     "radarhub.top": 496
   },
-  "raw_uris": 17390,
-  "parsed": 16216,
-  "safe": 11705,
+  "raw_uris": 17450,
+  "parsed": 16276,
+  "safe": 11781,
   "unique_exits": 5704,
-  "alive_exits": 1464,
+  "alive_exits": 1484,
   "unlabeled_country": 792,
   "probe": {
     "enabled": true,
@@ -19,33 +19,32 @@
     "timeout_s": 2.0
   },
   "dropped": {
-    "weak_cipher": 679,
-    "plaintext": 4611,
+    "weak_cipher": 670,
+    "plaintext": 4604,
     "scheme_ssr": 62,
     "scheme_http": 30,
     "unparsed": 1,
     "insecure_cert": 302,
-    "dup_exit": 5722,
+    "dup_exit": 5798,
     "banned_cc": 279,
-    "tcp_dead": 736
+    "tcp_dead": 716
   },
   "tiers": {
     "sub": {
       "nodes": 250,
       "default": "JP vless-01",
       "protocols": {
-        "vless": 82,
-        "shadowsocks": 82,
-        "trojan": 69,
-        "vmess": 17
+        "vless": 95,
+        "shadowsocks": 72,
+        "trojan": 70,
+        "vmess": 13
       },
       "countries": {
-        "JP": 11,
-        "HK": 6,
+        "JP": 17,
+        "HK": 8,
         "SG": 29,
-        "TW": 1,
-        "KR": 1,
-        "US": 200,
+        "KR": 2,
+        "US": 192,
         "IN": 1,
         "AU": 1
       }
@@ -60,11 +59,10 @@
         "vmess": 1
       },
       "countries": {
-        "JP": 101,
-        "HK": 6,
+        "JP": 99,
+        "HK": 8,
         "SG": 29,
-        "TW": 1,
-        "KR": 1,
+        "KR": 2,
         "IN": 1,
         "AU": 1
       }
@@ -73,9 +71,9 @@
       "nodes": 140,
       "default": "US vless-01",
       "protocols": {
-        "vless": 53,
-        "trojan": 66,
-        "shadowsocks": 21
+        "vless": 58,
+        "trojan": 67,
+        "shadowsocks": 15
       },
       "countries": {
         "US": 140
@@ -88,27 +86,25 @@
         "vless": 140
       },
       "countries": {
-        "GB": 10,
-        "DE": 37,
-        "FR": 12,
-        "NL": 32,
-        "ES": 2,
+        "GB": 8,
+        "NL": 31,
+        "RU": 14,
+        "DE": 33,
         "EE": 3,
-        "RU": 11,
-        "SE": 2,
+        "FR": 12,
+        "ES": 3,
+        "SE": 3,
+        "TR": 6,
+        "CH": 2,
         "FI": 7,
-        "CH": 1,
+        "CZ": 2,
         "PL": 4,
-        "CZ": 1,
-        "TR": 5,
-        "IT": 2,
         "RO": 1,
-        "UA": 1,
+        "IT": 2,
         "LV": 4,
+        "UA": 3,
         "BG": 1,
-        "GR": 1,
-        "IE": 1,
-        "SK": 2
+        "IE": 1
       }
     }
   },

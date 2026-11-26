@@ -44,9 +44,7 @@
     "US trojan-06",
     "US trojan-07",
     "US trojan-08",
-    "US vless-33",
     "US trojan-09",
-    "US vless-34",
     "US trojan-10",
     "US trojan-11",
     "US trojan-12",
@@ -97,9 +95,10 @@
     "US trojan-57",
     "US trojan-58",
     "US trojan-59",
-    "US vless-35",
     "US trojan-60",
-    "US vless-36",
+    "US vless-33",
+    "US vless-34",
+    "US vless-35",
     "US trojan-61",
     "US shadowsocks-01",
     "US shadowsocks-02",
@@ -144,6 +143,7 @@
     "US shadowsocks-40",
     "US shadowsocks-41",
     "US shadowsocks-42",
+    "US shadowsocks-43",
     "AUTO"
    ]
   },
@@ -191,9 +191,7 @@
     "US trojan-06",
     "US trojan-07",
     "US trojan-08",
-    "US vless-33",
     "US trojan-09",
-    "US vless-34",
     "US trojan-10",
     "US trojan-11",
     "US trojan-12",
@@ -244,9 +242,10 @@
     "US trojan-57",
     "US trojan-58",
     "US trojan-59",
-    "US vless-35",
     "US trojan-60",
-    "US vless-36",
+    "US vless-33",
+    "US vless-34",
+    "US vless-35",
     "US trojan-61",
     "US shadowsocks-01",
     "US shadowsocks-02",
@@ -290,7 +289,8 @@
     "US vmess-01",
     "US shadowsocks-40",
     "US shadowsocks-41",
-    "US shadowsocks-42"
+    "US shadowsocks-42",
+    "US shadowsocks-43"
    ],
    "url": "https://www.gstatic.com/generate_204",
    "interval": "15m",
@@ -303,17 +303,17 @@
   {
    "type": "vless",
    "tag": "US vless-01",
-   "server": "186.241.113.196",
-   "server_port": 24605,
-   "uuid": "38a3c008-b730-4b5c-b654-1a5453d24e8e",
+   "server": "159.89.87.21",
+   "server_port": 28190,
+   "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
    "flow": "xtls-rprx-vision",
    "tls": {
     "enabled": true,
-    "server_name": "gateway.icloud.com",
+    "server_name": "aws.amazon.com",
     "reality": {
      "enabled": true,
-     "public_key": "OMw1bo_JwLG61eycCxczLlK4BUViVp4SHcD8eh2Aol4",
-     "short_id": "4ef4b7e137b38248"
+     "public_key": "ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno",
+     "short_id": ""
     },
     "utls": {
      "enabled": true,
@@ -324,17 +324,17 @@
   {
    "type": "vless",
    "tag": "US vless-02",
-   "server": "179.254.94.184",
+   "server": "195.123.235.183",
    "server_port": 443,
-   "uuid": "2f12e5b5-6ce7-47ab-88b9-6110c1a3fc60",
+   "uuid": "c14ec728-3eca-4750-87fc-fd1e6aeb81d5",
    "flow": "xtls-rprx-vision",
    "tls": {
     "enabled": true,
-    "server_name": "www.bing.com",
+    "server_name": "gateway.icloud.com",
     "reality": {
      "enabled": true,
-     "public_key": "q49v36UVMNsNION3nn-cQU6_8VwgM_psm1s5z7XVaWc",
-     "short_id": "e6052385636f0700"
+     "public_key": "H3R3BUAl7thrIZsznTbb-eRREIjQOH2f3WO0oTN7OGY",
+     "short_id": "a0e2a6074c6456b0"
     },
     "utls": {
      "enabled": true,
@@ -345,6 +345,216 @@
   {
    "type": "vless",
    "tag": "US vless-03",
+   "server": "185.95.231.156",
+   "server_port": 443,
+   "uuid": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.apple.com",
+    "reality": {
+     "enabled": true,
+     "public_key": "8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To",
+     "short_id": "a3a578ab"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-04",
+   "server": "169.40.42.231",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "ios"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-05",
+   "server": "169.40.42.89",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "ios"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-06",
+   "server": "169.40.42.74",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-07",
+   "server": "169.40.42.35",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "ios"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-08",
+   "server": "169.40.42.202",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "random"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-09",
+   "server": "169.40.42.163",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-10",
+   "server": "169.40.42.168",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-11",
+   "server": "169.40.42.90",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "ios"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-12",
+   "server": "45.144.112.55",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-13",
    "server": "38.244.5.231",
    "server_port": 443,
    "uuid": "1bd6c8a2-01db-4a3d-8b2c-0b2f2c3e8b5a",
@@ -356,216 +566,6 @@
      "enabled": true,
      "public_key": "DUpNPvLjiL1GzeF7DfKWba-LYLz1KPuQXewhgNGPiDM",
      "short_id": "ab0a5b56"
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-04",
-   "server": "148.135.86.162",
-   "server_port": 10000,
-   "uuid": "327b1113-049e-4256-8d72-8815643dbb65",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "addons.mozilla.org",
-    "reality": {
-     "enabled": true,
-     "public_key": "DCbnS4mIPc1W2-wI0MGHhykwzf2nVuZvBadErSE6MxU",
-     "short_id": "a1b2c3d4"
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-05",
-   "server": "15.204.97.197",
-   "server_port": 23576,
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "fuck.rkn",
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": "01"
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-06",
-   "server": "15.204.97.214",
-   "server_port": 23576,
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "fuck.rkn",
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": ""
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "random"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-07",
-   "server": "15.204.97.216",
-   "server_port": 23576,
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "fuck.rkn",
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": "01"
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-08",
-   "server": "15.204.97.206",
-   "server_port": 23576,
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "fuck.rkn",
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": "01"
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-09",
-   "server": "15.204.97.209",
-   "server_port": 23576,
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "fuck.rkn",
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": ""
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-10",
-   "server": "15.204.97.195",
-   "server_port": 23576,
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "fuck.rkn",
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": "01"
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-11",
-   "server": "15.204.97.198",
-   "server_port": 23576,
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "fuck.rkn",
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": ""
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-12",
-   "server": "15.204.97.219",
-   "server_port": 23576,
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "fuck.rkn",
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": "01"
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-13",
-   "server": "205.186.112.19",
-   "server_port": 443,
-   "uuid": "f1a04d4c-56b3-4f93-a4ec-91a5039a48bd",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.amazon.com",
-    "reality": {
-     "enabled": true,
-     "public_key": "cwao9PnlNhUTd19WxIKAOdAjkaqVJihY0d2WOR8I2WY",
-     "short_id": "cce23a6bce3bc925"
     },
     "utls": {
      "enabled": true,
@@ -596,6 +596,111 @@
   {
    "type": "vless",
    "tag": "US vless-15",
+   "server": "148.135.86.162",
+   "server_port": 10000,
+   "uuid": "327b1113-049e-4256-8d72-8815643dbb65",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "addons.mozilla.org",
+    "reality": {
+     "enabled": true,
+     "public_key": "DCbnS4mIPc1W2-wI0MGHhykwzf2nVuZvBadErSE6MxU",
+     "short_id": "a1b2c3d4"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-16",
+   "server": "15.204.97.197",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-17",
+   "server": "15.204.97.209",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-18",
+   "server": "15.204.97.195",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-19",
+   "server": "15.204.97.216",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-20",
    "server": "ww13.levikogjgfdd.ir",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -616,144 +721,39 @@
   },
   {
    "type": "vless",
-   "tag": "US vless-16",
-   "server": "185.95.231.156",
-   "server_port": 443,
-   "uuid": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.apple.com",
-    "reality": {
-     "enabled": true,
-     "public_key": "8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To",
-     "short_id": "a3a578ab"
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-17",
-   "server": "159.89.87.21",
-   "server_port": 28190,
-   "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "aws.amazon.com",
-    "reality": {
-     "enabled": true,
-     "public_key": "ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno",
-     "short_id": ""
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-18",
-   "server": "195.123.235.183",
-   "server_port": 443,
-   "uuid": "c14ec728-3eca-4750-87fc-fd1e6aeb81d5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "gateway.icloud.com",
-    "reality": {
-     "enabled": true,
-     "public_key": "H3R3BUAl7thrIZsznTbb-eRREIjQOH2f3WO0oTN7OGY",
-     "short_id": "a0e2a6074c6456b0"
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-19",
-   "server": "169.40.42.90",
-   "server_port": 443,
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "yahoo.com",
-    "reality": {
-     "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "ios"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-20",
-   "server": "169.40.42.35",
-   "server_port": 443,
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "yahoo.com",
-    "reality": {
-     "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "ios"
-    }
-   }
-  },
-  {
-   "type": "vless",
    "tag": "US vless-21",
-   "server": "169.40.42.168",
-   "server_port": 443,
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "server": "15.204.97.219",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
    "flow": "xtls-rprx-vision",
    "tls": {
     "enabled": true,
-    "server_name": "yahoo.com",
+    "server_name": "fuck.rkn",
     "reality": {
      "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
     },
     "utls": {
      "enabled": true,
-     "fingerprint": "ios"
+     "fingerprint": "chrome"
     }
    }
   },
   {
    "type": "vless",
    "tag": "US vless-22",
-   "server": "169.40.42.74",
-   "server_port": 443,
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "server": "186.241.113.196",
+   "server_port": 24605,
+   "uuid": "38a3c008-b730-4b5c-b654-1a5453d24e8e",
    "flow": "xtls-rprx-vision",
    "tls": {
     "enabled": true,
-    "server_name": "yahoo.com",
+    "server_name": "gateway.icloud.com",
     "reality": {
      "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
+     "public_key": "OMw1bo_JwLG61eycCxczLlK4BUViVp4SHcD8eh2Aol4",
+     "short_id": "4ef4b7e137b38248"
     },
     "utls": {
      "enabled": true,
@@ -764,17 +764,17 @@
   {
    "type": "vless",
    "tag": "US vless-23",
-   "server": "169.40.42.163",
-   "server_port": 443,
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "server": "15.204.97.198",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
    "flow": "xtls-rprx-vision",
    "tls": {
     "enabled": true,
-    "server_name": "yahoo.com",
+    "server_name": "fuck.rkn",
     "reality": {
      "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": ""
     },
     "utls": {
      "enabled": true,
@@ -785,17 +785,17 @@
   {
    "type": "vless",
    "tag": "US vless-24",
-   "server": "207.244.243.12",
-   "server_port": 443,
-   "uuid": "a33f9fb8-51bb-46d0-8d3a-6b54fdc15943",
+   "server": "15.204.97.206",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
    "flow": "xtls-rprx-vision",
    "tls": {
     "enabled": true,
-    "server_name": "www.cloudflare.com",
+    "server_name": "fuck.rkn",
     "reality": {
      "enabled": true,
-     "public_key": "7pnL_m6XftDfRH5Lue-2zI1a0XWg-xcQd5F8m5lqChg",
-     "short_id": "d5f348390b201e86"
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
     },
     "utls": {
      "enabled": true,
@@ -806,6 +806,27 @@
   {
    "type": "vless",
    "tag": "US vless-25",
+   "server": "15.204.97.214",
+   "server_port": 23576,
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "fuck.rkn",
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-26",
    "server": "169.40.42.229",
    "server_port": 443,
    "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
@@ -826,39 +847,18 @@
   },
   {
    "type": "vless",
-   "tag": "US vless-26",
-   "server": "169.40.42.202",
-   "server_port": 443,
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "yahoo.com",
-    "reality": {
-     "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "vless",
    "tag": "US vless-27",
-   "server": "45.144.112.55",
+   "server": "205.186.112.19",
    "server_port": 443,
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "uuid": "f1a04d4c-56b3-4f93-a4ec-91a5039a48bd",
    "flow": "xtls-rprx-vision",
    "tls": {
     "enabled": true,
-    "server_name": "yahoo.com",
+    "server_name": "www.amazon.com",
     "reality": {
      "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
+     "public_key": "cwao9PnlNhUTd19WxIKAOdAjkaqVJihY0d2WOR8I2WY",
+     "short_id": "cce23a6bce3bc925"
     },
     "utls": {
      "enabled": true,
@@ -869,38 +869,17 @@
   {
    "type": "vless",
    "tag": "US vless-28",
-   "server": "169.40.42.89",
+   "server": "leviko-nl4680.shopingggg.ir",
    "server_port": 443,
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
    "flow": "xtls-rprx-vision",
    "tls": {
     "enabled": true,
-    "server_name": "yahoo.com",
+    "server_name": "ee1-r.bankai.party",
     "reality": {
      "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "ios"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-29",
-   "server": "169.40.42.231",
-   "server_port": 443,
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "yahoo.com",
-    "reality": {
-     "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
+     "public_key": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
+     "short_id": "457fab2ac885dbe0"
     },
     "utls": {
      "enabled": true,
@@ -910,28 +889,7 @@
   },
   {
    "type": "vless",
-   "tag": "US vless-30",
-   "server": "153.52.143.118",
-   "server_port": 443,
-   "uuid": "ccb8ff48-3934-4250-b4ec-bb76b95d154f",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "de2.fox-lisa.ru",
-    "reality": {
-     "enabled": true,
-     "public_key": "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs",
-     "short_id": "027af64166562b09"
-    },
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-31",
+   "tag": "US vless-29",
    "server": "48.103.231.2",
    "server_port": 443,
    "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
@@ -952,22 +910,64 @@
   },
   {
    "type": "vless",
-   "tag": "US vless-32",
-   "server": "46.29.255.123",
-   "server_port": 59539,
-   "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
+   "tag": "US vless-30",
+   "server": "167.17.69.171",
+   "server_port": 443,
+   "uuid": "00144519-7e0d-476b-8d28-435576af9262",
    "flow": "xtls-rprx-vision",
    "tls": {
     "enabled": true,
-    "server_name": "cloudflare-dns.com",
+    "server_name": "www.cloudflare.com",
     "reality": {
      "enabled": true,
-     "public_key": "R6mPqCsjZMWauci4LHw7Qp1LGKmBd-sxMXplyOn9bSQ",
-     "short_id": ""
+     "public_key": "ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk",
+     "short_id": "0990d22f"
     },
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-31",
+   "server": "47.251.108.158",
+   "server_port": 443,
+   "uuid": "975fc322-6e38-434b-a53c-d39fed49b9a9",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.cloudflare.com",
+    "reality": {
+     "enabled": true,
+     "public_key": "SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs",
+     "short_id": "896f52ba2cfca903"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "US vless-32",
+   "server": "153.52.143.118",
+   "server_port": 443,
+   "uuid": "ccb8ff48-3934-4250-b4ec-bb76b95d154f",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "de2.fox-lisa.ru",
+    "reality": {
+     "enabled": true,
+     "public_key": "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs",
+     "short_id": "027af64166562b09"
+    },
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
     }
    }
   },
@@ -985,6 +985,635 @@
   {
    "type": "trojan",
    "tag": "US trojan-02",
+   "server": "66.163.122.26",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "blog.searchnationwidecareerchangehelperandguidancetoday.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-03",
+   "server": "66.163.122.113",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "api.searchnationwidecareerchangehelperandguidancetoday.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-04",
+   "server": "66.163.122.30",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "resources.searchnationwidecareerchangehelperandguidancetoday.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-05",
+   "server": "66.163.122.25",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "cdn.searchnationwidecareerchangehelperandguidancetoday.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-06",
+   "server": "66.163.122.7",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.searchnationwidecareerchangehelperandguidancetoday.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-07",
+   "server": "66.163.122.46",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "searchnationwidecareerchangehelperandguidancetoday.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-08",
+   "server": "216.152.155.23",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "courses.nextjobopportunityandclaimyouridealrole.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-09",
+   "server": "169.197.140.245",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-10",
+   "server": "216.152.155.176",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "blog.nextjobopportunityandclaimyouridealrole.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-11",
+   "server": "169.197.140.169",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "api.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-12",
+   "server": "169.197.140.214",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-13",
+   "server": "169.197.140.218",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-14",
+   "server": "169.197.140.224",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-15",
+   "server": "216.152.155.59",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "api.nextjobopportunityandclaimyouridealrole.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-16",
+   "server": "169.197.140.171",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-17",
+   "server": "216.152.155.131",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.nextjobopportunityandclaimyouridealrole.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-18",
+   "server": "216.152.155.50",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "cdn.nextjobopportunityandclaimyouridealrole.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-19",
+   "server": "216.152.155.54",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "learn.nextjobopportunityandclaimyouridealrole.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-20",
+   "server": "170.101.101.237",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "cdn.explorecreativejobsandenhanceyourcareerportfolio.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-21",
+   "server": "170.101.101.19",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "learn.explorecreativejobsandenhanceyourcareerportfolio.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-22",
+   "server": "170.101.101.67",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "courses.explorecreativejobsandenhanceyourcareerportfolio.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-23",
+   "server": "216.152.155.158",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "resources.nextjobopportunityandclaimyouridealrole.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-24",
+   "server": "170.101.101.112",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "resources.explorecreativejobsandenhanceyourcareerportfolio.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-25",
+   "server": "170.101.101.211",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "api.explorecreativejobsandenhanceyourcareerportfolio.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-26",
+   "server": "170.101.101.131",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "blog.explorecreativejobsandenhanceyourcareerportfolio.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-27",
+   "server": "170.101.101.53",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.explorecreativejobsandenhanceyourcareerportfolio.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-28",
+   "server": "216.152.156.65",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-29",
+   "server": "216.152.156.159",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "resources.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-30",
+   "server": "216.152.156.49",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-31",
+   "server": "216.152.156.42",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-32",
+   "server": "216.152.156.81",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-33",
+   "server": "216.152.156.212",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-34",
+   "server": "66.163.114.245",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "findconnectwithemployersandbuildprofessionalnetwork.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-35",
+   "server": "66.163.114.114",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "learn.findconnectwithemployersandbuildprofessionalnetwork.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-36",
+   "server": "66.163.114.126",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "resources.findconnectwithemployersandbuildprofessionalnetwork.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-37",
+   "server": "66.163.114.132",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "courses.findconnectwithemployersandbuildprofessionalnetwork.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-38",
+   "server": "66.163.114.45",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "cdn.findconnectwithemployersandbuildprofessionalnetwork.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-39",
+   "server": "66.163.114.106",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.findconnectwithemployersandbuildprofessionalnetwork.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-40",
+   "server": "66.163.114.166",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "blog.findconnectwithemployersandbuildprofessionalnetwork.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-41",
+   "server": "66.163.112.31",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "unlockyourfuturefindyourperfectcareer.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-42",
+   "server": "66.163.112.76",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "api.unlockyourfuturefindyourperfectcareer.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-43",
+   "server": "66.163.112.142",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "cdn.unlockyourfuturefindyourperfectcareer.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-44",
+   "server": "66.163.112.171",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "learn.unlockyourfuturefindyourperfectcareer.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-45",
+   "server": "66.163.112.242",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "resources.unlockyourfuturefindyourperfectcareer.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-46",
+   "server": "216.106.186.32",
+   "server_port": 443,
+   "password": "dba20dcb635e430fa4d3bfc303a149d2",
+   "tls": {
+    "enabled": true,
+    "server_name": "blog.findlocaljobnetworkandbuildcommunityconnections.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-47",
+   "server": "66.163.112.147",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "courses.unlockyourfuturefindyourperfectcareer.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-48",
+   "server": "66.163.112.121",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.unlockyourfuturefindyourperfectcareer.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-49",
+   "server": "66.163.112.13",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "blog.unlockyourfuturefindyourperfectcareer.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-50",
+   "server": "216.106.186.33",
+   "server_port": 443,
+   "password": "f0eb8c92ce8946aaba856569cff1a16b",
+   "tls": {
+    "enabled": true,
+    "server_name": "resources.findlocaljobnetworkandbuildcommunityconnections.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-51",
+   "server": "216.106.186.66",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.findlocaljobnetworkandbuildcommunityconnections.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-52",
+   "server": "www.findlocaljobnetworkandbuildcommunityconnections.com",
+   "server_port": 443,
+   "password": "242a3d8eee5e4ed1a6bfa4141d549a25",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.findlocaljobnetworkandbuildcommunityconnections.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-53",
+   "server": "resources.findlocaljobnetworkandbuildcommunityconnections.com",
+   "server_port": 443,
+   "password": "f0eb8c92ce8946aaba856569cff1a16b",
+   "tls": {
+    "enabled": true,
+    "server_name": "resources.findlocaljobnetworkandbuildcommunityconnections.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-54",
+   "server": "216.106.186.46",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "cdn.findlocaljobnetworkandbuildcommunityconnections.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-55",
+   "server": "blog.findlocaljobnetworkandbuildcommunityconnections.com",
+   "server_port": 443,
+   "password": "dba20dcb635e430fa4d3bfc303a149d2",
+   "tls": {
+    "enabled": true,
+    "server_name": "blog.findlocaljobnetworkandbuildcommunityconnections.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-56",
+   "server": "167.88.61.85",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "resources.browseseniorrolesandenhanceyourcareertoday.com"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "US trojan-57",
    "server": "167.88.61.175",
    "server_port": 443,
    "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -999,7 +1628,7 @@
   },
   {
    "type": "trojan",
-   "tag": "US trojan-03",
+   "tag": "US trojan-58",
    "server": "167.88.61.193",
    "server_port": 443,
    "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1010,7 +1639,7 @@
   },
   {
    "type": "trojan",
-   "tag": "US trojan-04",
+   "tag": "US trojan-59",
    "server": "167.88.61.198",
    "server_port": 443,
    "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1021,18 +1650,7 @@
   },
   {
    "type": "trojan",
-   "tag": "US trojan-05",
-   "server": "167.88.61.85",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "resources.browseseniorrolesandenhanceyourcareertoday.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-06",
+   "tag": "US trojan-60",
    "server": "167.88.61.20",
    "server_port": 443,
    "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1042,54 +1660,14 @@
    }
   },
   {
-   "type": "trojan",
-   "tag": "US trojan-07",
-   "server": "216.106.186.32",
-   "server_port": 443,
-   "password": "dba20dcb635e430fa4d3bfc303a149d2",
-   "tls": {
-    "enabled": true,
-    "server_name": "blog.findlocaljobnetworkandbuildcommunityconnections.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-08",
-   "server": "216.106.186.33",
-   "server_port": 443,
-   "password": "f0eb8c92ce8946aaba856569cff1a16b",
-   "tls": {
-    "enabled": true,
-    "server_name": "resources.findlocaljobnetworkandbuildcommunityconnections.com"
-   }
-  },
-  {
    "type": "vless",
    "tag": "US vless-33",
-   "server": "162.159.254.201",
+   "server": "kuruish.org",
    "server_port": 443,
-   "uuid": "53bbdad4-2f4e-45db-8df4-fa491a6a7227",
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
    "tls": {
     "enabled": true,
-    "server_name": "freeceshi6.frii.site"
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI",
-    "headers": {
-     "Host": "freeceshi6.frii.site"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-09",
-   "server": "216.106.186.46",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.findlocaljobnetworkandbuildcommunityconnections.com",
+    "server_name": "kuruish.org",
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
@@ -1108,604 +1686,20 @@
    }
   },
   {
-   "type": "trojan",
-   "tag": "US trojan-10",
-   "server": "216.106.186.66",
-   "server_port": 443,
-   "password": "242a3d8eee5e4ed1a6bfa4141d549a25",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.findlocaljobnetworkandbuildcommunityconnections.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-11",
-   "server": "66.163.112.171",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "learn.unlockyourfuturefindyourperfectcareer.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-12",
-   "server": "blog.findlocaljobnetworkandbuildcommunityconnections.com",
-   "server_port": 443,
-   "password": "dba20dcb635e430fa4d3bfc303a149d2",
-   "tls": {
-    "enabled": true,
-    "server_name": "blog.findlocaljobnetworkandbuildcommunityconnections.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-13",
-   "server": "66.163.112.147",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "courses.unlockyourfuturefindyourperfectcareer.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-14",
-   "server": "66.163.112.242",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "resources.unlockyourfuturefindyourperfectcareer.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-15",
-   "server": "www.findlocaljobnetworkandbuildcommunityconnections.com",
-   "server_port": 443,
-   "password": "242a3d8eee5e4ed1a6bfa4141d549a25",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.findlocaljobnetworkandbuildcommunityconnections.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-16",
-   "server": "66.163.112.121",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.unlockyourfuturefindyourperfectcareer.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-17",
-   "server": "66.163.112.142",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.unlockyourfuturefindyourperfectcareer.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-18",
-   "server": "66.163.112.76",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "api.unlockyourfuturefindyourperfectcareer.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-19",
-   "server": "66.163.112.31",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "unlockyourfuturefindyourperfectcareer.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-20",
-   "server": "66.163.112.13",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "blog.unlockyourfuturefindyourperfectcareer.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-21",
-   "server": "resources.findlocaljobnetworkandbuildcommunityconnections.com",
-   "server_port": 443,
-   "password": "f0eb8c92ce8946aaba856569cff1a16b",
-   "tls": {
-    "enabled": true,
-    "server_name": "resources.findlocaljobnetworkandbuildcommunityconnections.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-22",
-   "server": "66.163.114.126",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "resources.findconnectwithemployersandbuildprofessionalnetwork.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-23",
-   "server": "66.163.114.106",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.findconnectwithemployersandbuildprofessionalnetwork.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-24",
-   "server": "66.163.114.114",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "learn.findconnectwithemployersandbuildprofessionalnetwork.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-25",
-   "server": "66.163.114.132",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "courses.findconnectwithemployersandbuildprofessionalnetwork.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-26",
-   "server": "66.163.114.166",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "blog.findconnectwithemployersandbuildprofessionalnetwork.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-27",
-   "server": "66.163.114.245",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "findconnectwithemployersandbuildprofessionalnetwork.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-28",
-   "server": "66.163.114.45",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.findconnectwithemployersandbuildprofessionalnetwork.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-29",
-   "server": "216.152.155.176",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "blog.nextjobopportunityandclaimyouridealrole.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-30",
-   "server": "216.152.155.23",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "courses.nextjobopportunityandclaimyouridealrole.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-31",
-   "server": "216.152.155.59",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "api.nextjobopportunityandclaimyouridealrole.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-32",
-   "server": "216.152.155.158",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "resources.nextjobopportunityandclaimyouridealrole.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-33",
-   "server": "216.152.155.54",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "learn.nextjobopportunityandclaimyouridealrole.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-34",
-   "server": "216.152.155.50",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.nextjobopportunityandclaimyouridealrole.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-35",
-   "server": "170.101.101.112",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "resources.explorecreativejobsandenhanceyourcareerportfolio.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-36",
-   "server": "170.101.101.53",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.explorecreativejobsandenhanceyourcareerportfolio.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-37",
-   "server": "170.101.101.19",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "learn.explorecreativejobsandenhanceyourcareerportfolio.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-38",
-   "server": "66.163.122.113",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "api.searchnationwidecareerchangehelperandguidancetoday.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-39",
-   "server": "66.163.122.46",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "searchnationwidecareerchangehelperandguidancetoday.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-40",
-   "server": "216.152.155.131",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.nextjobopportunityandclaimyouridealrole.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-41",
-   "server": "66.163.122.25",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.searchnationwidecareerchangehelperandguidancetoday.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-42",
-   "server": "66.163.122.7",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.searchnationwidecareerchangehelperandguidancetoday.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-43",
-   "server": "66.163.122.26",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "blog.searchnationwidecareerchangehelperandguidancetoday.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-44",
-   "server": "66.163.122.30",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "resources.searchnationwidecareerchangehelperandguidancetoday.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-45",
-   "server": "169.197.140.214",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-46",
-   "server": "169.197.140.171",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-47",
-   "server": "169.197.140.169",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "api.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-48",
-   "server": "169.197.140.218",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-49",
-   "server": "170.101.101.67",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "courses.explorecreativejobsandenhanceyourcareerportfolio.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-50",
-   "server": "169.197.140.245",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-51",
-   "server": "169.197.140.224",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-52",
-   "server": "216.152.156.212",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-53",
-   "server": "216.152.156.65",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-54",
-   "server": "216.152.156.42",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-55",
-   "server": "216.152.156.81",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-56",
-   "server": "216.152.156.159",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "resources.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-57",
-   "server": "216.152.156.49",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-58",
-   "server": "170.101.101.131",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "blog.explorecreativejobsandenhanceyourcareerportfolio.com"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-59",
-   "server": "170.101.101.211",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "api.explorecreativejobsandenhanceyourcareerportfolio.com"
-   }
-  },
-  {
    "type": "vless",
    "tag": "US vless-35",
-   "server": "kuruish.org",
+   "server": "162.159.254.201",
    "server_port": 443,
-   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "uuid": "53bbdad4-2f4e-45db-8df4-fa491a6a7227",
    "tls": {
     "enabled": true,
-    "server_name": "kuruish.org"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "US trojan-60",
-   "server": "170.101.101.237",
-   "server_port": 443,
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.explorecreativejobsandenhanceyourcareerportfolio.com"
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "US vless-36",
-   "server": "xray-b8ct4r2f-sahdon-hosaindoost.cloady.io",
-   "server_port": 443,
-   "uuid": "1fd2e2d1-96f5-2056-19fd-b375b1a9d851",
-   "tls": {
-    "enabled": true,
-    "server_name": "xray-b8ct4r2f-sahdon-hosaindoost.cloady.io"
+    "server_name": "freeceshi6.frii.site"
    },
    "transport": {
     "type": "ws",
-    "path": "/ffad70ffdfc3bcda",
+    "path": "/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI",
     "headers": {
-     "Host": "xray-b8ct4r2f-sahdon-hosaindoost.cloady.io"
+     "Host": "freeceshi6.frii.site"
     }
    }
   },
@@ -2079,6 +2073,14 @@
    "server_port": 42878,
    "method": "chacha20-ietf-poly1305",
    "password": "ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "US shadowsocks-43",
+   "server": "108.181.133.138",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "H12pAAJYL"
   }
  ],
  "route": {

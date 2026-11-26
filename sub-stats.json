@@ -1,55 +1,52 @@
 {
-  "generated_at_utc": "2026-11-25T22:27:32Z",
+  "generated_at_utc": "2026-11-26T03:00:43Z",
   "sources": {
     "Eternity.txt": 200,
     "EternityAir.txt": 61,
     "sub_merge.txt": 4465,
-    "raw.githubusercontent.com": 9238,
+    "raw.githubusercontent.com": 9235,
     "radarhub.top": 494
   },
-  "raw_uris": 15429,
-  "parsed": 14220,
-  "safe": 9888,
-  "unique_exits": 5071,
-  "alive_exits": 1237,
-  "unlabeled_country": 776,
+  "raw_uris": 15436,
+  "parsed": 14227,
+  "safe": 9868,
+  "unique_exits": 5031,
+  "alive_exits": 1214,
+  "unlabeled_country": 774,
   "probe": {
     "enabled": true,
     "limit": 2200,
     "timeout_s": 2.0
   },
   "dropped": {
-    "weak_cipher": 535,
-    "plaintext": 4599,
+    "weak_cipher": 531,
+    "plaintext": 4621,
     "scheme_ssr": 60,
     "scheme_http": 52,
     "unparsed": 1,
     "parse_error": 1,
-    "insecure_cert": 293,
-    "dup_exit": 4697,
+    "insecure_cert": 302,
+    "dup_exit": 4717,
     "banned_cc": 120,
-    "tcp_dead": 963
+    "tcp_dead": 986
   },
   "tiers": {
     "sub": {
       "nodes": 250,
       "default": "JP vless-01",
       "protocols": {
-        "vless": 95,
-        "shadowsocks": 78,
-        "trojan": 39,
-        "vmess": 38
+        "vless": 77,
+        "shadowsocks": 88,
+        "trojan": 46,
+        "vmess": 39
       },
       "countries": {
-        "JP": 11,
+        "JP": 10,
         "KR": 2,
-        "HK": 7,
-        "SG": 21,
-        "TW": 1,
-        "VN": 2,
-        "US": 181,
+        "HK": 5,
+        "SG": 20,
+        "US": 189,
         "AU": 3,
-        "IN": 1,
         "CA": 21
       }
     },
@@ -57,30 +54,28 @@
       "nodes": 140,
       "default": "JP vless-01",
       "protocols": {
-        "vless": 52,
-        "shadowsocks": 15,
-        "trojan": 57,
-        "vmess": 16
+        "vless": 46,
+        "shadowsocks": 16,
+        "trojan": 68,
+        "vmess": 10
       },
       "countries": {
-        "JP": 62,
-        "KR": 14,
-        "HK": 15,
-        "SG": 42,
-        "TW": 1,
-        "VN": 2,
+        "JP": 56,
+        "KR": 16,
+        "HK": 14,
+        "SG": 41,
         "AU": 3,
-        "IN": 1
+        "TW": 10
       }
     },
     "sub-us": {
       "nodes": 140,
       "default": "US vless-01",
       "protocols": {
-        "vless": 48,
-        "trojan": 34,
-        "shadowsocks": 52,
-        "vmess": 6
+        "vless": 44,
+        "trojan": 35,
+        "shadowsocks": 56,
+        "vmess": 5
       },
       "countries": {
         "US": 140
@@ -90,32 +85,31 @@
       "nodes": 140,
       "default": "NL vless-01",
       "protocols": {
-        "vless": 134,
-        "trojan": 6
+        "vless": 120,
+        "trojan": 20
       },
       "countries": {
-        "NL": 39,
-        "FR": 8,
-        "GB": 8,
-        "DE": 35,
-        "RU": 8,
+        "NL": 37,
+        "DE": 41,
         "IT": 2,
-        "CH": 4,
-        "TR": 2,
-        "RO": 4,
-        "FI": 3,
-        "LT": 4,
-        "ES": 3,
-        "LV": 4,
-        "BG": 1,
+        "FR": 7,
         "CY": 3,
-        "PL": 4,
-        "IE": 1,
-        "SE": 1,
-        "EE": 2,
-        "SK": 1,
-        "UA": 1,
+        "CH": 10,
+        "GB": 6,
+        "ES": 10,
+        "RU": 5,
+        "PL": 6,
+        "FI": 1,
+        "SE": 2,
         "CZ": 1,
+        "RO": 1,
+        "GR": 1,
+        "IE": 1,
+        "SK": 1,
+        "EE": 1,
+        "BG": 1,
+        "TR": 1,
+        "UA": 1,
         "LU": 1
       }
     }
